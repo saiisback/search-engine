@@ -16,7 +16,6 @@ import {
 
 import SearchHeader from "./search-header"
 import SearchBar from "./search-bar"
-import FeatureToggle from "./feature-toggle"
 import SearchResults from "./search-results"
 import { cn } from "@/lib/utils"
 
@@ -24,10 +23,12 @@ export default function SearchInterface() {
   const [searchQuery, setSearchQuery] = useState("")
   const [activeFeature, setActiveFeature] = useState("search")
   const [showResults, setShowResults] = useState(false)
+  const [submittedQuery, setSubmittedQuery] = useState("")
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault()
     if (searchQuery.trim()) {
+      setSubmittedQuery(searchQuery.trim())
       setShowResults(true)
     }
   }
@@ -59,16 +60,6 @@ export default function SearchInterface() {
         <div className={cn("w-full max-w-3xl transition-all duration-500", showResults ? "mt-4" : "mt-12")}>
           <SearchBar searchQuery={searchQuery} setSearchQuery={setSearchQuery} handleSearch={handleSearch} />
 
-          <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-4 md:grid-cols-8">
-            {features.map((feature) => (
-              <FeatureToggle
-                key={feature.id}
-                feature={feature}
-                isActive={activeFeature === feature.id}
-                onClick={() => setActiveFeature(feature.id)}
-              />
-            ))}
-          </div>
         </div>
 
         {showResults && (
@@ -78,10 +69,16 @@ export default function SearchInterface() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="mt-12 w-full"
           >
-            <SearchResults query={searchQuery} feature={activeFeature} />
+            <SearchResults query={submittedQuery} feature={activeFeature} />
           </motion.div>
         )}
       </motion.div>
+      <footer className="w-full border-t border-gray-800 pt-6 text-center text-xs text-gray-500 font-mono">
+  <p className="opacity-60">
+    {"//"} handcrafted with logic & caffeine — dedicated to  <br/>
+    Made by <a href="saikarthikketha.tech"> <span className="underline text-white">Sai Karthik Ketha</span></a>
+  </p>
+</footer>
     </div>
   )
 }
