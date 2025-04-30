@@ -2,7 +2,8 @@
 
 import { useState, useEffect } from "react"
 import { motion } from "framer-motion"
-import { ExternalLink, Loader, Clock, Star, Tag, Info, Search, Globe, Calendar } from "lucide-react"
+import { ExternalLink, Loader, Clock, Star, FileSearch, Globe, Calendar } from "lucide-react"
+import AiSummary from "./ai-summary"
 
 interface SearchResultsProps {
   query: string
@@ -175,6 +176,12 @@ export default function SearchResults({
         </span>
       </div>
 
+        {AiSummary && (
+          <div className="mt-4">
+            <AiSummary query={query} onSummaryComplete={() => setContentView(null)} />
+          </div>
+        )}
+
       {/* Loading State */}
       {loading && (
         <div className="flex flex-col items-center justify-center py-12 text-gray-500">
@@ -309,9 +316,9 @@ export default function SearchResults({
                   </>
                 ) : (
                   <>
-                    <Search size={12} />
-                    <span>View Content</span>
-                  </>
+  <FileSearch size={14} />
+  <span>Scraped Content</span>
+</>
                 )}
               </button>
             </div>

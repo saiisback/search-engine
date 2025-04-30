@@ -33,6 +33,8 @@ export default function SearchInterface() {
     }
   }
 
+  
+
   const features = [
     { id: "search", icon: Search, label: "Search" },
     { id: "ai-chat", icon: Bot, label: "AI Chat" },
@@ -55,6 +57,7 @@ export default function SearchInterface() {
           showResults ? "justify-start" : "justify-center min-h-[90vh]",
         )}
       >
+        
         <SearchHeader minimized={showResults} />
 
         <div className={cn("w-full max-w-3xl transition-all duration-500", showResults ? "mt-4" : "mt-12")}>
@@ -69,6 +72,7 @@ export default function SearchInterface() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="mt-12 w-full"
           >
+            
             <SearchResults query={submittedQuery} feature={activeFeature} />
           </motion.div>
         )}
