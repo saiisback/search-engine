@@ -79,7 +79,7 @@ export default function SearchInterface() {
       </motion.div>
       <footer className="w-full border-t border-gray-800 pt-6 text-center text-xs text-gray-500 font-mono">
   <p className="opacity-60">
-    {"//"} handcrafted with logic & caffeine — dedicated to  <br/>
+    {"//"} handcrafted with logic & caffeine — dedicated to M<br/>
     Made by <a href="saikarthikketha.tech"> <span className="underline text-white">Sai Karthik Ketha</span></a>
   </p>
 </footer>
