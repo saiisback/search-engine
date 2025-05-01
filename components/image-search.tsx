@@ -52,7 +52,7 @@ export default function ImageSearchResults({
       setError(null)
 
       try {
-        const res = await fetch(`http://localhost:10000/api/image-search/?query=${encodeURIComponent(query)}&search_engine=${selectedEngine}&num_results=${numResults}`)
+        const res = await fetch(`http://https://azizah.onrender.com/api/image-search/?query=${encodeURIComponent(query)}&search_engine=${selectedEngine}&num_results=${numResults}`)
 
         if (!res.ok) {
           throw new Error(`HTTP error! status: ${res.status}`)
@@ -204,7 +204,7 @@ export default function ImageSearchResults({
       )}
 
       {/* Image Results Grid */}
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mb-5">
         {results.map((image, index) => (
           <motion.div
             key={image.id}
@@ -238,7 +238,7 @@ export default function ImageSearchResults({
                   </div>
                 )}
                 {image.width && image.height && (
-                  <span className="font-mono text-[10px] text-gray-500 mt-1 mb-4">
+                  <span className="font-mono text-[10px] text-gray-500 mt-1">
                     {image.width} × {image.height}
                   </span>
                 )}
