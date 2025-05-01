@@ -1,0 +1,26 @@
+{
+  "url": "https://www.google.com/search?q=java+tutorials&sca_esv=647936d85f11601f&source=hp&ei=Mk0SaKKMLvff2roPqLP62AU&iflsig=ACkRmUkAAAAAaBJbQu2TLdqWHY_MAOp0eaL1OniLqC3C&sei=OE0SaMGDOLKUseMPrNnt2AE#",
+  "title": "Google Search",
+  "content": "Google Search\nIf you're having trouble accessing Google Search, please\nclick here\n, or send\nfeedback\n.",
+  "html": "<!DOCTYPE html>\n<html lang=\"en-IN\"><head><title>Google Search</title></head><body><div id=\"yvlrue\" style=\"display:none\">If you're having trouble accessing Google Search, please <a href=\"/search?q=java+tutorials&amp;sca_esv=647936d85f11601f&amp;emsg=SG_REL&amp;sei=Qk0SaNOpIZGUseMPmaDboAE\">click here</a>, or send <a href=\"https://support.google.com/websearch\">feedback</a>.</div></body></html>",
+  "meta_tags": {},
+  "links": [
+    {
+      "href": "https://www.google.com/httpservice/retry/enablejs?sei=Qk0SaNOpIZGUseMPmaDboAE",
+      "text": "here",
+      "title": ""
+    },
+    {
+      "href": "https://www.google.com/search?q=java+tutorials&sca_esv=647936d85f11601f&emsg=SG_REL&sei=Qk0SaNOpIZGUseMPmaDboAE",
+      "text": "click here",
+      "title": ""
+    },
+    {
+      "href": "https://support.google.com/websearch",
+      "text": "feedback",
+      "title": ""
+    }
+  ],
+  "images": [],
+  "text_blocks": []
+}

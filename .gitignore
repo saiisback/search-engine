@@ -11,16 +11,7 @@
 /build
 
 #data
-/backend/data
 
-#debug data
-
-debug_page.html
-
-search_engine.log
-
-
-__pycache__
 
 # debug
 npm-debug.log*

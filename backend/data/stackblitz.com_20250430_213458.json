@@ -1,0 +1,24 @@
+{
+  "url": "https://stackblitz.com/@saiisback",
+  "title": "saiisback - StackBlitz",
+  "content": "saiisback - StackBlitz",
+  "html": "<!DOCTYPE html>\n\n<html class=\"application\" lang=\"en\">\n<head>\n<title>saiisback - StackBlitz</title>\n<meta charset=\"utf-8\"/>\n\n\n<meta content=\"object\" property=\"og:type\">\n<meta content=\"StackBlitz\" property=\"og:site_name\"/>\n<meta content=\"saiisback - StackBlitz\" property=\"og:title\"/>\n<meta content=\"https://c.staticblitz.com/assets/social_general-7010bd1a6c30b52e72ddaf60ea7c233dce627140e735b17f61787647f1d1738f.jpg\" property=\"og:image\"/>\n<meta content=\"summary_large_image\" name=\"twitter:card\"/>\n<meta content=\"saiisback - StackBlitz\" name=\"twitter:title\"/>\n<meta content=\"https://c.staticblitz.com/assets/social_general-7010bd1a6c30b52e72ddaf60ea7c233dce627140e735b17f61787647f1d1738f.jpg\" name=\"twitter:image\"/>\n<meta content=\"@StackBlitz\" name=\"twitter:site\"/>\n<meta content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\" name=\"viewport\"/>\n<meta content=\"#2e3138\" name=\"theme-color\"/>\n<meta content=\"authenticity_token\" name=\"csrf-param\">\n<meta content=\"Nl685SP1U7hfRdsg8aOQ20IzWBFtu3sg1fh27kQ9S4TjsgDCU0jzNLeM05IpSwL6GvgS86HkjFZPKKQflehjWA\" name=\"csrf-token\">\n<meta content=\"/cable\" name=\"action-cable-url\">\n<link href=\"/manifest.json\" rel=\"manifest\"/>\n<link href=\"https://c.staticblitz.com/assets/favicon_sb-861fe1b85c0dc928750c62de15fed96fc75e57ee366bd937bad17a3938917b3f.svg\" rel=\"icon\" type=\"image/svg+xml\"/>\n<link href=\"https://c.staticblitz.com/assets/favicon_sb-4f3d9011b264e56e3f61cf6612c50dd3b8fcae038843ba2d10c8d0b6194d19d6.png\" rel=\"icon\" type=\"image/png\"/>\n<link href=\"https://c.staticblitz.com/assets/icons/icon-512x512-4fd226b904b09411fdeb83161b2b9f309394fea1b66817920a9ec1e71ca78ca0.png\" rel=\"apple-touch-icon\" type=\"image/png\"/>\n\n\n<link href=\"https://c.staticblitz.com/assets/pack/client-52fa1805fa24a.css\" rel=\"stylesheet\">\n<link as=\"script\" crossorigin=\"anonymous\" href=\"https://c.staticblitz.com/assets/vite/entrypoint-CFRku82F.js\" rel=\"modulepreload\"/>\n<link as=\"script\" crossorigin=\"anonymous\" href=\"https://c.staticblitz.com/assets/vite/_commonjsHelpers-BosuxZz1.js\" rel=\"modulepreload\"/>\n<link as=\"script\" crossorigin=\"anonymous\" href=\"https://c.staticblitz.com/assets/vite/semver-Zyv2pDaP.js\" rel=\"modulepreload\"/><link href=\"https://c.staticblitz.com/assets/vite/platform-DfJ0lqQA.css\" media=\"screen\" rel=\"stylesheet\">\n<link href=\"https://c.staticblitz.com/assets/vite/entrypoint-BNCbwCiC.css\" media=\"screen\" rel=\"stylesheet\">\n\n</link></link></link></meta></meta></meta></meta></head>\n<body>\n\n<div data-page='{\"component\":\"profiles/show\",\"props\":{\"collectionsProps\":{\"canManage\":false,\"owner\":{\"avatar\":\"https://ghavatars.staticblitz.com/saiisback.png\",\"kind\":\"USER\",\"name\":\"saiisback\",\"provider\":null,\"slug\":\"saiisback\"},\"totalUnfiltered\":0},\"profileProps\":{\"user\":{\"avatar\":\"https://ghavatars.staticblitz.com/saiisback.png\",\"bio\":\"The change starts from one person\",\"createdAt\":\"2024-08-22T06:31:01.735Z\",\"email\":\"karthiksaiketha@gmail.com\",\"externalAccount\":{\"username\":\"saiisback\",\"url\":\"https://github.com//saiisback\"},\"kind\":\"USER\",\"location\":\"Bangalore\",\"name\":\"sai karthik ketha\",\"site\":\"https://saikarthikketha.vercel.app\",\"username\":\"saiisback\"},\"organizations\":[],\"links\":null}},\"url\":\"/@saiisback\"}' id=\"app\"></div>\n\n</body>\n</html>\n",
+  "meta_tags": {
+    "og:type": "object",
+    "og:site_name": "StackBlitz",
+    "og:title": "saiisback - StackBlitz",
+    "og:image": "https://c.staticblitz.com/assets/social_general-7010bd1a6c30b52e72ddaf60ea7c233dce627140e735b17f61787647f1d1738f.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "saiisback - StackBlitz",
+    "twitter:image": "https://c.staticblitz.com/assets/social_general-7010bd1a6c30b52e72ddaf60ea7c233dce627140e735b17f61787647f1d1738f.jpg",
+    "twitter:site": "@StackBlitz",
+    "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
+    "theme-color": "#2e3138",
+    "csrf-param": "authenticity_token",
+    "csrf-token": "Nl685SP1U7hfRdsg8aOQ20IzWBFtu3sg1fh27kQ9S4TjsgDCU0jzNLeM05IpSwL6GvgS86HkjFZPKKQflehjWA",
+    "action-cable-url": "/cable"
+  },
+  "links": [],
+  "images": [],
+  "text_blocks": []
+}
