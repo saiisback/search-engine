@@ -52,7 +52,7 @@ export default function ImageSearchResults({
       setError(null)
 
       try {
-        const res = await fetch(`http://https://azizah.onrender.com/api/image-search/?query=${encodeURIComponent(query)}&search_engine=${selectedEngine}&num_results=${numResults}`)
+        const res = await fetch(`https://azizah.onrender.com/api/image-search/?query=${encodeURIComponent(query)}&search_engine=${selectedEngine}&num_results=${numResults}`)
 
         if (!res.ok) {
           throw new Error(`HTTP error! status: ${res.status}`)
