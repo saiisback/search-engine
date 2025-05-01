@@ -8253,3 +8253,63 @@ Stacktrace:
 
 2025-05-01 11:45:30,701 - INFO - Browser returned to pool or closed
 2025-05-01 11:45:30,701 - INFO - Returning 1 image results in 14.36 seconds
+2025-05-01 15:22:09,296 - INFO - Chrome driver initialized successfully
+2025-05-01 15:22:09,297 - INFO - Added WebDriver to pool during startup
+2025-05-01 15:24:19,975 - INFO - Search request received for query: 'hello world', engine: google
+2025-05-01 15:24:19,976 - INFO - Search request received for query: 'hello world', engine: google
+2025-05-01 15:24:21,377 - INFO - Chrome driver initialized successfully
+2025-05-01 15:24:22,654 - INFO - Successfully navigated to google homepage
+2025-05-01 15:24:22,724 - INFO - Successfully navigated to google homepage
+2025-05-01 15:24:23,064 - INFO - Search query submitted successfully
+2025-05-01 15:24:23,121 - INFO - Search query submitted successfully
+2025-05-01 15:24:26,243 - INFO - Found 190 potential search results
+2025-05-01 15:24:26,296 - INFO - Found 190 potential search results
+2025-05-01 15:24:26,739 - INFO - Added result 4: "Hello, World!" program...
+2025-05-01 15:24:26,758 - INFO - Added result 4: "Hello, World!" program...
+2025-05-01 15:24:26,886 - INFO - Added result 5: Hello World...
+2025-05-01 15:24:26,950 - INFO - Added result 6: HelloWorld Coliving & Student ...
+2025-05-01 15:24:27,711 - INFO - Browser returned to pool or closed
+2025-05-01 15:24:27,711 - INFO - Returning 4 results in 7.74 seconds
+2025-05-01 15:24:27,765 - INFO - Browser returned to pool or closed
+2025-05-01 15:24:27,765 - INFO - Returning 6 results in 7.79 seconds
+2025-05-01 15:32:09,282 - INFO - Cleaned 0 expired cache entries
+2025-05-01 15:42:09,406 - INFO - Cleaned 0 expired cache entries
+2025-05-01 15:52:09,406 - INFO - Cleaned 0 expired cache entries
+2025-05-01 16:02:09,501 - INFO - Cleaned 0 expired cache entries
+2025-05-01 16:06:37,366 - INFO - Search request received for query: 'fatsuraj instagram', engine: google
+2025-05-01 16:06:37,366 - INFO - Search request received for query: 'fatsuraj instagram', engine: google
+2025-05-01 16:06:38,435 - INFO - Successfully navigated to google homepage
+2025-05-01 16:06:38,483 - INFO - Successfully navigated to google homepage
+2025-05-01 16:06:38,640 - INFO - Search query submitted successfully
+2025-05-01 16:06:38,688 - INFO - Search query submitted successfully
+2025-05-01 16:06:41,695 - INFO - Found 2 potential search results
+2025-05-01 16:06:41,744 - INFO - Found 2 potential search results
+2025-05-01 16:06:41,759 - INFO - Added result 1: Suraj Bhushan (@fatsuraj)...
+2025-05-01 16:06:41,809 - INFO - Added result 1: Suraj Bhushan (@fatsuraj)...
+2025-05-01 16:06:41,816 - INFO - Added result 2: Suraj Bhushan | Even the brigh...
+2025-05-01 16:06:41,824 - INFO - Browser returned to pool or closed
+2025-05-01 16:06:41,825 - INFO - Returning 2 results in 4.46 seconds
+2025-05-01 16:06:41,863 - INFO - Added result 2: Suraj Bhushan | Even the brigh...
+2025-05-01 16:06:41,871 - INFO - Browser returned to pool or closed
+2025-05-01 16:06:41,871 - INFO - Returning 2 results in 4.51 seconds
+2025-05-01 16:06:48,211 - INFO - Search request received for query: 'fatsuraj instagram', engine: bing
+2025-05-01 16:06:48,859 - INFO - Successfully navigated to bing homepage
+2025-05-01 16:06:48,908 - INFO - Search query submitted successfully
+2025-05-01 16:06:51,952 - INFO - Found 10 potential Bing search results
+2025-05-01 16:06:52,012 - INFO - Added result 1: Suraj (@fatsuraj) • Instagram ...
+2025-05-01 16:06:52,053 - INFO - Added result 2: Suraj Bhushan | Lock in . . . ...
+2025-05-01 16:06:52,087 - INFO - Added result 3: FATSURAJ - YouTube...
+2025-05-01 16:06:52,125 - INFO - Added result 4: 𝗠𝗿𝗦𝘂𝗿𝗮𝗷221 - YouTube...
+2025-05-01 16:06:52,156 - INFO - Added result 5: Suraj Bhushan (@fatsuraj) • In...
+2025-05-01 16:06:52,189 - INFO - Added result 6: Suraj Bhushan | Day 28 • there...
+2025-05-01 16:06:52,224 - INFO - Added result 7: Tried my best to edit Follow @...
+2025-05-01 16:06:52,268 - INFO - Added result 8: Instagram - Facebook...
+2025-05-01 16:06:52,314 - INFO - Added result 9: suraj on Instagram: "Push Knee...
+2025-05-01 16:06:52,355 - INFO - Added result 10: Fatstraws | Instagram, Faceboo...
+2025-05-01 16:06:52,366 - INFO - Browser returned to pool or closed
+2025-05-01 16:06:52,366 - INFO - Returning 10 results in 4.16 seconds
+2025-05-01 16:12:09,560 - INFO - Cleaned 0 expired cache entries
+2025-05-01 16:22:09,577 - INFO - Cleaned 0 expired cache entries
+2025-05-01 16:32:09,596 - INFO - Cleaned 0 expired cache entries
+2025-05-01 16:42:09,608 - INFO - Cleaned 0 expired cache entries
+2025-05-01 16:52:09,621 - INFO - Cleaned 0 expired cache entries

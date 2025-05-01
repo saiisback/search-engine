@@ -1,11 +1,12 @@
-import SearchInterface from "@/components/search/search-interface"
-import { ThemeProvider } from "@/components/theme-provider"
+"use client"
+import ReviewInterface from "@/components/code-review/review-interface"
+
 
 export default function Home() {
   return (
     
       <main className="flex min-h-screen flex-col items-center bg-black text-white">
-        <SearchInterface />
+        <ReviewInterface />
       </main>
     
   )

@@ -11,13 +11,15 @@ import {
   BookOpen,
   FileText,
   Brain,
-  SatelliteDish
+  SatelliteDish,
+  Link
 } from "lucide-react"
 
 import SearchHeader from "./search-header"
 import SearchBar from "./search-bar"
 import SearchResults from "./search-results"
 import { cn } from "@/lib/utils"
+import FeatureToggle from "../feature-toggle"
 
 export default function SearchInterface() {
   const [searchQuery, setSearchQuery] = useState("")
@@ -36,14 +38,14 @@ export default function SearchInterface() {
   
 
   const features = [
-    { id: "search", icon: Search, label: "Search" },
-    { id: "ai-chat", icon: Bot, label: "AI Chat" },
-    { id: "llm-notebook", icon: Notebook, label: "LLM Notebook" },
-    { id: "code-search", icon: FileSearch, label: "Code Search" },
-    { id: "academic-search", icon: BookOpen, label: "PDF / Academic Search" },
-    { id: "document-chat", icon: FileText, label: "Document Chat" },
-    { id: "knowledge-graph", icon: Brain, label: "Knowledge Graph View" },
-    { id: "web-monitor", icon: SatelliteDish, label: "Real-time Web Monitor" },
+    { id: "search", icon: Search, label: "Search", link: "/" },
+    { id: "ai-chat", icon: Bot, label: "AI Chat", link: "/ai-chat" },
+    { id: "llm-notebook", icon: Notebook, label: "LLM Notebook", link: "/llm-notebook" },
+    { id: "code-search", icon: FileSearch, label: "Code Search", link: "/code-search" },
+    { id: "academic-search", icon: BookOpen, label: "PDF / Academic Search", link: "/academic-search" },
+    { id: "document-chat", icon: FileText, label: "Document Chat", link: "/document-chat" },
+    { id: "knowledge-graph", icon: Brain, label: "Knowledge Graph View", link: "/knowledge-graph" },
+    { id: "web-monitor", icon: SatelliteDish, label: "Real-time Web Monitor", link: "/web-monitor" },
   ]
 
   return (
@@ -64,6 +66,18 @@ export default function SearchInterface() {
           <SearchBar searchQuery={searchQuery} setSearchQuery={setSearchQuery} handleSearch={handleSearch} />
 
         </div>
+
+        <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-4 md:grid-cols-8">
+            {features.map((feature) => (
+              <FeatureToggle
+                key={feature.id}
+                feature={feature}
+                isActive={activeFeature === feature.id}
+                onClick={() => setActiveFeature(feature.id)}
+              />
+            ))}
+          </div>
+        
 
         {showResults && (
           <motion.div
