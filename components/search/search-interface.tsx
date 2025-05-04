@@ -39,9 +39,10 @@ export default function SearchInterface() {
 
   const features = [
     { id: "search", icon: Search, label: "Search", link: "/" },
+    { id: "code-search", icon: FileSearch, label: "Code Search", link: "/code-search" },
     { id: "ai-chat", icon: Bot, label: "AI Chat", link: "/ai-chat" },
     { id: "llm-notebook", icon: Notebook, label: "LLM Notebook", link: "/llm-notebook" },
-    { id: "code-search", icon: FileSearch, label: "Code Search", link: "/code-search" },
+    
     { id: "academic-search", icon: BookOpen, label: "PDF / Academic Search", link: "/academic-search" },
     { id: "document-chat", icon: FileText, label: "Document Chat", link: "/document-chat" },
     { id: "knowledge-graph", icon: Brain, label: "Knowledge Graph View", link: "/knowledge-graph" },

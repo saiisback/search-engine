@@ -8313,3 +8313,1365 @@ Stacktrace:
 2025-05-01 16:32:09,596 - INFO - Cleaned 0 expired cache entries
 2025-05-01 16:42:09,608 - INFO - Cleaned 0 expired cache entries
 2025-05-01 16:52:09,621 - INFO - Cleaned 0 expired cache entries
+2025-05-01 17:07:36,627 - INFO - Chrome driver initialized successfully
+2025-05-01 17:07:36,627 - INFO - Added WebDriver to pool during startup
+2025-05-01 17:07:56,769 - INFO - Search request received for query: 'bmw', engine: google
+2025-05-01 17:07:56,771 - INFO - Search request received for query: 'bmw', engine: google
+2025-05-01 17:07:57,993 - INFO - Chrome driver initialized successfully
+2025-05-01 17:07:59,032 - INFO - Successfully navigated to google homepage
+2025-05-01 17:08:01,862 - INFO - Successfully navigated to google homepage
+2025-05-01 17:08:02,274 - INFO - Search query submitted successfully
+2025-05-01 17:08:02,825 - INFO - Search query submitted successfully
+2025-05-01 17:08:05,443 - INFO - Found 59 potential search results
+2025-05-01 17:08:05,603 - INFO - Added result 3: Explore BMW latest Model in In...
+2025-05-01 17:08:05,644 - INFO - Added result 4: BMW.com | The international BM...
+2025-05-01 17:08:05,695 - INFO - Added result 5: BMW Group...
+2025-05-01 17:08:05,747 - INFO - Added result 6: BMW Cars Price in India - BMW ...
+2025-05-01 17:08:05,930 - INFO - Found 78 potential search results
+2025-05-01 17:08:06,244 - INFO - Browser returned to pool or closed
+2025-05-01 17:08:06,245 - INFO - Returning 6 results in 9.48 seconds
+2025-05-01 17:08:06,309 - INFO - Added result 5: Explore BMW latest Model in In...
+2025-05-01 17:08:06,353 - INFO - Added result 6: BMW.com | The international BM...
+2025-05-01 17:08:06,445 - INFO - Added result 7: BMW Group...
+2025-05-01 17:08:06,516 - INFO - Added result 8: BMW Cars Price in India - BMW ...
+2025-05-01 17:08:07,235 - INFO - Browser returned to pool or closed
+2025-05-01 17:08:07,235 - INFO - Returning 8 results in 10.46 seconds
+2025-05-01 17:08:13,715 - INFO - Search request received for query: 'bmw', engine: bing
+2025-05-01 17:08:16,283 - INFO - Successfully navigated to bing homepage
+2025-05-01 17:08:19,652 - INFO - Search query submitted successfully
+2025-05-01 17:08:22,755 - INFO - Found 10 potential Bing search results
+2025-05-01 17:08:22,799 - INFO - Added result 1: Explore BMW latest Model in In...
+2025-05-01 17:08:22,834 - INFO - Added result 2: All Models - BMW...
+2025-05-01 17:08:22,860 - INFO - Added result 3: BMW Cars Price in India - BMW ...
+2025-05-01 17:08:22,892 - INFO - Added result 4: BMW Kun Exclusive |Luxury Car ...
+2025-05-01 17:08:22,932 - INFO - Added result 5: 238 Used BMW Cars in Hyderabad...
+2025-05-01 17:08:22,973 - INFO - Added result 6: Build your own style BMW with ...
+2025-05-01 17:08:23,009 - INFO - Added result 7: BMW car offers, prices & disco...
+2025-05-01 17:08:23,054 - INFO - Added result 8: BMW Cars Price in India - Mode...
+2025-05-01 17:08:23,089 - INFO - Added result 9: BMW 5 Series Price in Hyderaba...
+2025-05-01 17:08:23,123 - INFO - Added result 10: BMW India...
+2025-05-01 17:08:23,133 - INFO - Browser returned to pool or closed
+2025-05-01 17:08:23,134 - INFO - Returning 10 results in 9.42 seconds
+2025-05-01 17:08:48,231 - INFO - Search request received for query: 'bmw', engine: google
+2025-05-01 17:08:48,232 - INFO - Search request received for query: 'bmw', engine: google
+2025-05-01 17:08:48,232 - INFO - Returning cached results for query: 'bmw'
+2025-05-01 17:08:48,232 - INFO - Returning cached results for query: 'bmw'
+2025-05-01 17:09:00,056 - INFO - Content request received for URL: https://www.google.com/search?q=bmw
+2025-05-01 17:09:01,200 - INFO - Saved content to data/www.google.com_20250501_170901.json
+2025-05-01 17:09:07,605 - INFO - Image search request received for query: 'bmw', engine: google
+2025-05-01 17:09:07,607 - INFO - Image search request received for query: 'bmw', engine: google
+2025-05-01 17:09:09,236 - INFO - Successfully navigated to google image search
+2025-05-01 17:09:10,766 - INFO - Successfully navigated to google image search
+2025-05-01 17:09:12,422 - INFO - Found 191 potential image results
+2025-05-01 17:09:12,437 - ERROR - Error processing image result 0: Message: element not interactable
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+0   chromedriver                        0x0000000105076dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x000000010506f088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000104bb674c cxxbridge1$string$len + 92632
+3   chromedriver                        0x0000000104bfe68c cxxbridge1$string$len + 387352
+4   chromedriver                        0x0000000104bf32b0 cxxbridge1$string$len + 341308
+5   chromedriver                        0x0000000104bf2d3c cxxbridge1$string$len + 339912
+6   chromedriver                        0x0000000104c3e7b8 cxxbridge1$string$len + 649796
+7   chromedriver                        0x0000000104bf1a80 cxxbridge1$string$len + 335116
+8   chromedriver                        0x000000010503bc74 cxxbridge1$str$ptr + 2575000
+9   chromedriver                        0x000000010503ef40 cxxbridge1$str$ptr + 2588004
+10  chromedriver                        0x000000010501b9fc cxxbridge1$str$ptr + 2443296
+11  chromedriver                        0x000000010503f7bc cxxbridge1$str$ptr + 2590176
+12  chromedriver                        0x000000010500caf0 cxxbridge1$str$ptr + 2382100
+13  chromedriver                        0x000000010505f9a0 cxxbridge1$str$ptr + 2721732
+14  chromedriver                        0x000000010505fb2c cxxbridge1$str$ptr + 2722128
+15  chromedriver                        0x000000010506ecd4 cxxbridge1$str$ptr + 2783992
+16  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:12,446 - ERROR - Error processing image result 1: Message: element not interactable
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+0   chromedriver                        0x0000000105076dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x000000010506f088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000104bb674c cxxbridge1$string$len + 92632
+3   chromedriver                        0x0000000104bfe68c cxxbridge1$string$len + 387352
+4   chromedriver                        0x0000000104bf32b0 cxxbridge1$string$len + 341308
+5   chromedriver                        0x0000000104bf2d3c cxxbridge1$string$len + 339912
+6   chromedriver                        0x0000000104c3e7b8 cxxbridge1$string$len + 649796
+7   chromedriver                        0x0000000104bf1a80 cxxbridge1$string$len + 335116
+8   chromedriver                        0x000000010503bc74 cxxbridge1$str$ptr + 2575000
+9   chromedriver                        0x000000010503ef40 cxxbridge1$str$ptr + 2588004
+10  chromedriver                        0x000000010501b9fc cxxbridge1$str$ptr + 2443296
+11  chromedriver                        0x000000010503f7bc cxxbridge1$str$ptr + 2590176
+12  chromedriver                        0x000000010500caf0 cxxbridge1$str$ptr + 2382100
+13  chromedriver                        0x000000010505f9a0 cxxbridge1$str$ptr + 2721732
+14  chromedriver                        0x000000010505fb2c cxxbridge1$str$ptr + 2722128
+15  chromedriver                        0x000000010506ecd4 cxxbridge1$str$ptr + 2783992
+16  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:12,457 - ERROR - Error processing image result 2: Message: element not interactable
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+0   chromedriver                        0x0000000105076dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x000000010506f088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000104bb674c cxxbridge1$string$len + 92632
+3   chromedriver                        0x0000000104bfe68c cxxbridge1$string$len + 387352
+4   chromedriver                        0x0000000104bf32b0 cxxbridge1$string$len + 341308
+5   chromedriver                        0x0000000104bf2d3c cxxbridge1$string$len + 339912
+6   chromedriver                        0x0000000104c3e7b8 cxxbridge1$string$len + 649796
+7   chromedriver                        0x0000000104bf1a80 cxxbridge1$string$len + 335116
+8   chromedriver                        0x000000010503bc74 cxxbridge1$str$ptr + 2575000
+9   chromedriver                        0x000000010503ef40 cxxbridge1$str$ptr + 2588004
+10  chromedriver                        0x000000010501b9fc cxxbridge1$str$ptr + 2443296
+11  chromedriver                        0x000000010503f7bc cxxbridge1$str$ptr + 2590176
+12  chromedriver                        0x000000010500caf0 cxxbridge1$str$ptr + 2382100
+13  chromedriver                        0x000000010505f9a0 cxxbridge1$str$ptr + 2721732
+14  chromedriver                        0x000000010505fb2c cxxbridge1$str$ptr + 2722128
+15  chromedriver                        0x000000010506ecd4 cxxbridge1$str$ptr + 2783992
+16  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:13,914 - INFO - Found 193 potential image results
+2025-05-01 17:09:13,927 - ERROR - Error processing image result 0: Message: element not interactable
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+0   chromedriver                        0x0000000100f22dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100f1b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100a6274c cxxbridge1$string$len + 92632
+3   chromedriver                        0x0000000100aaa68c cxxbridge1$string$len + 387352
+4   chromedriver                        0x0000000100a9f2b0 cxxbridge1$string$len + 341308
+5   chromedriver                        0x0000000100a9ed3c cxxbridge1$string$len + 339912
+6   chromedriver                        0x0000000100aea7b8 cxxbridge1$string$len + 649796
+7   chromedriver                        0x0000000100a9da80 cxxbridge1$string$len + 335116
+8   chromedriver                        0x0000000100ee7c74 cxxbridge1$str$ptr + 2575000
+9   chromedriver                        0x0000000100eeaf40 cxxbridge1$str$ptr + 2588004
+10  chromedriver                        0x0000000100ec79fc cxxbridge1$str$ptr + 2443296
+11  chromedriver                        0x0000000100eeb7bc cxxbridge1$str$ptr + 2590176
+12  chromedriver                        0x0000000100eb8af0 cxxbridge1$str$ptr + 2382100
+13  chromedriver                        0x0000000100f0b9a0 cxxbridge1$str$ptr + 2721732
+14  chromedriver                        0x0000000100f0bb2c cxxbridge1$str$ptr + 2722128
+15  chromedriver                        0x0000000100f1acd4 cxxbridge1$str$ptr + 2783992
+16  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:13,935 - ERROR - Error processing image result 1: Message: element not interactable
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+0   chromedriver                        0x0000000100f22dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100f1b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100a6274c cxxbridge1$string$len + 92632
+3   chromedriver                        0x0000000100aaa68c cxxbridge1$string$len + 387352
+4   chromedriver                        0x0000000100a9f2b0 cxxbridge1$string$len + 341308
+5   chromedriver                        0x0000000100a9ed3c cxxbridge1$string$len + 339912
+6   chromedriver                        0x0000000100aea7b8 cxxbridge1$string$len + 649796
+7   chromedriver                        0x0000000100a9da80 cxxbridge1$string$len + 335116
+8   chromedriver                        0x0000000100ee7c74 cxxbridge1$str$ptr + 2575000
+9   chromedriver                        0x0000000100eeaf40 cxxbridge1$str$ptr + 2588004
+10  chromedriver                        0x0000000100ec79fc cxxbridge1$str$ptr + 2443296
+11  chromedriver                        0x0000000100eeb7bc cxxbridge1$str$ptr + 2590176
+12  chromedriver                        0x0000000100eb8af0 cxxbridge1$str$ptr + 2382100
+13  chromedriver                        0x0000000100f0b9a0 cxxbridge1$str$ptr + 2721732
+14  chromedriver                        0x0000000100f0bb2c cxxbridge1$str$ptr + 2722128
+15  chromedriver                        0x0000000100f1acd4 cxxbridge1$str$ptr + 2783992
+16  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:13,946 - ERROR - Error processing image result 2: Message: element not interactable
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+0   chromedriver                        0x0000000100f22dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100f1b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100a6274c cxxbridge1$string$len + 92632
+3   chromedriver                        0x0000000100aaa68c cxxbridge1$string$len + 387352
+4   chromedriver                        0x0000000100a9f2b0 cxxbridge1$string$len + 341308
+5   chromedriver                        0x0000000100a9ed3c cxxbridge1$string$len + 339912
+6   chromedriver                        0x0000000100aea7b8 cxxbridge1$string$len + 649796
+7   chromedriver                        0x0000000100a9da80 cxxbridge1$string$len + 335116
+8   chromedriver                        0x0000000100ee7c74 cxxbridge1$str$ptr + 2575000
+9   chromedriver                        0x0000000100eeaf40 cxxbridge1$str$ptr + 2588004
+10  chromedriver                        0x0000000100ec79fc cxxbridge1$str$ptr + 2443296
+11  chromedriver                        0x0000000100eeb7bc cxxbridge1$str$ptr + 2590176
+12  chromedriver                        0x0000000100eb8af0 cxxbridge1$str$ptr + 2382100
+13  chromedriver                        0x0000000100f0b9a0 cxxbridge1$str$ptr + 2721732
+14  chromedriver                        0x0000000100f0bb2c cxxbridge1$str$ptr + 2722128
+15  chromedriver                        0x0000000100f1acd4 cxxbridge1$str$ptr + 2783992
+16  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:15,777 - ERROR - Error processing image result 6: Message: element not interactable: element has zero size
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+0   chromedriver                        0x0000000105076dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x000000010506f088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000104bb68d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000104bfe8fc cxxbridge1$string$len + 387976
+4   chromedriver                        0x0000000104bf32b0 cxxbridge1$string$len + 341308
+5   chromedriver                        0x0000000104bf2d3c cxxbridge1$string$len + 339912
+6   chromedriver                        0x0000000104c3e7b8 cxxbridge1$string$len + 649796
+7   chromedriver                        0x0000000104bf1a80 cxxbridge1$string$len + 335116
+8   chromedriver                        0x000000010503bc74 cxxbridge1$str$ptr + 2575000
+9   chromedriver                        0x000000010503ef40 cxxbridge1$str$ptr + 2588004
+10  chromedriver                        0x000000010501b9fc cxxbridge1$str$ptr + 2443296
+11  chromedriver                        0x000000010503f7bc cxxbridge1$str$ptr + 2590176
+12  chromedriver                        0x000000010500caf0 cxxbridge1$str$ptr + 2382100
+13  chromedriver                        0x000000010505f9a0 cxxbridge1$str$ptr + 2721732
+14  chromedriver                        0x000000010505fb2c cxxbridge1$str$ptr + 2722128
+15  chromedriver                        0x000000010506ecd4 cxxbridge1$str$ptr + 2783992
+16  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:15,787 - ERROR - Error processing image result 7: Message: element not interactable
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+0   chromedriver                        0x0000000105076dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x000000010506f088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000104bb674c cxxbridge1$string$len + 92632
+3   chromedriver                        0x0000000104bfe68c cxxbridge1$string$len + 387352
+4   chromedriver                        0x0000000104bf32b0 cxxbridge1$string$len + 341308
+5   chromedriver                        0x0000000104bf2d3c cxxbridge1$string$len + 339912
+6   chromedriver                        0x0000000104c3e7b8 cxxbridge1$string$len + 649796
+7   chromedriver                        0x0000000104bf1a80 cxxbridge1$string$len + 335116
+8   chromedriver                        0x000000010503bc74 cxxbridge1$str$ptr + 2575000
+9   chromedriver                        0x000000010503ef40 cxxbridge1$str$ptr + 2588004
+10  chromedriver                        0x000000010501b9fc cxxbridge1$str$ptr + 2443296
+11  chromedriver                        0x000000010503f7bc cxxbridge1$str$ptr + 2590176
+12  chromedriver                        0x000000010500caf0 cxxbridge1$str$ptr + 2382100
+13  chromedriver                        0x000000010505f9a0 cxxbridge1$str$ptr + 2721732
+14  chromedriver                        0x000000010505fb2c cxxbridge1$str$ptr + 2722128
+15  chromedriver                        0x000000010506ecd4 cxxbridge1$str$ptr + 2783992
+16  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:15,801 - ERROR - Error processing image result 8: Message: element not interactable
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+0   chromedriver                        0x0000000105076dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x000000010506f088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000104bb674c cxxbridge1$string$len + 92632
+3   chromedriver                        0x0000000104bfe68c cxxbridge1$string$len + 387352
+4   chromedriver                        0x0000000104bf32b0 cxxbridge1$string$len + 341308
+5   chromedriver                        0x0000000104bf2d3c cxxbridge1$string$len + 339912
+6   chromedriver                        0x0000000104c3e7b8 cxxbridge1$string$len + 649796
+7   chromedriver                        0x0000000104bf1a80 cxxbridge1$string$len + 335116
+8   chromedriver                        0x000000010503bc74 cxxbridge1$str$ptr + 2575000
+9   chromedriver                        0x000000010503ef40 cxxbridge1$str$ptr + 2588004
+10  chromedriver                        0x000000010501b9fc cxxbridge1$str$ptr + 2443296
+11  chromedriver                        0x000000010503f7bc cxxbridge1$str$ptr + 2590176
+12  chromedriver                        0x000000010500caf0 cxxbridge1$str$ptr + 2382100
+13  chromedriver                        0x000000010505f9a0 cxxbridge1$str$ptr + 2721732
+14  chromedriver                        0x000000010505fb2c cxxbridge1$str$ptr + 2722128
+15  chromedriver                        0x000000010506ecd4 cxxbridge1$str$ptr + 2783992
+16  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:15,808 - ERROR - Error processing image result 9: Message: element not interactable
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+0   chromedriver                        0x0000000105076dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x000000010506f088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000104bb674c cxxbridge1$string$len + 92632
+3   chromedriver                        0x0000000104bfe68c cxxbridge1$string$len + 387352
+4   chromedriver                        0x0000000104bf32b0 cxxbridge1$string$len + 341308
+5   chromedriver                        0x0000000104bf2d3c cxxbridge1$string$len + 339912
+6   chromedriver                        0x0000000104c3e7b8 cxxbridge1$string$len + 649796
+7   chromedriver                        0x0000000104bf1a80 cxxbridge1$string$len + 335116
+8   chromedriver                        0x000000010503bc74 cxxbridge1$str$ptr + 2575000
+9   chromedriver                        0x000000010503ef40 cxxbridge1$str$ptr + 2588004
+10  chromedriver                        0x000000010501b9fc cxxbridge1$str$ptr + 2443296
+11  chromedriver                        0x000000010503f7bc cxxbridge1$str$ptr + 2590176
+12  chromedriver                        0x000000010500caf0 cxxbridge1$str$ptr + 2382100
+13  chromedriver                        0x000000010505f9a0 cxxbridge1$str$ptr + 2721732
+14  chromedriver                        0x000000010505fb2c cxxbridge1$str$ptr + 2722128
+15  chromedriver                        0x000000010506ecd4 cxxbridge1$str$ptr + 2783992
+16  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:15,815 - ERROR - Error processing image result 10: Message: element not interactable
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+0   chromedriver                        0x0000000105076dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x000000010506f088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000104bb674c cxxbridge1$string$len + 92632
+3   chromedriver                        0x0000000104bfe68c cxxbridge1$string$len + 387352
+4   chromedriver                        0x0000000104bf32b0 cxxbridge1$string$len + 341308
+5   chromedriver                        0x0000000104bf2d3c cxxbridge1$string$len + 339912
+6   chromedriver                        0x0000000104c3e7b8 cxxbridge1$string$len + 649796
+7   chromedriver                        0x0000000104bf1a80 cxxbridge1$string$len + 335116
+8   chromedriver                        0x000000010503bc74 cxxbridge1$str$ptr + 2575000
+9   chromedriver                        0x000000010503ef40 cxxbridge1$str$ptr + 2588004
+10  chromedriver                        0x000000010501b9fc cxxbridge1$str$ptr + 2443296
+11  chromedriver                        0x000000010503f7bc cxxbridge1$str$ptr + 2590176
+12  chromedriver                        0x000000010500caf0 cxxbridge1$str$ptr + 2382100
+13  chromedriver                        0x000000010505f9a0 cxxbridge1$str$ptr + 2721732
+14  chromedriver                        0x000000010505fb2c cxxbridge1$str$ptr + 2722128
+15  chromedriver                        0x000000010506ecd4 cxxbridge1$str$ptr + 2783992
+16  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:17,315 - ERROR - Error processing image result 6: Message: element not interactable: element has zero size
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+0   chromedriver                        0x0000000100f22dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100f1b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100a628d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000100aaa8fc cxxbridge1$string$len + 387976
+4   chromedriver                        0x0000000100a9f2b0 cxxbridge1$string$len + 341308
+5   chromedriver                        0x0000000100a9ed3c cxxbridge1$string$len + 339912
+6   chromedriver                        0x0000000100aea7b8 cxxbridge1$string$len + 649796
+7   chromedriver                        0x0000000100a9da80 cxxbridge1$string$len + 335116
+8   chromedriver                        0x0000000100ee7c74 cxxbridge1$str$ptr + 2575000
+9   chromedriver                        0x0000000100eeaf40 cxxbridge1$str$ptr + 2588004
+10  chromedriver                        0x0000000100ec79fc cxxbridge1$str$ptr + 2443296
+11  chromedriver                        0x0000000100eeb7bc cxxbridge1$str$ptr + 2590176
+12  chromedriver                        0x0000000100eb8af0 cxxbridge1$str$ptr + 2382100
+13  chromedriver                        0x0000000100f0b9a0 cxxbridge1$str$ptr + 2721732
+14  chromedriver                        0x0000000100f0bb2c cxxbridge1$str$ptr + 2722128
+15  chromedriver                        0x0000000100f1acd4 cxxbridge1$str$ptr + 2783992
+16  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:17,323 - ERROR - Error processing image result 7: Message: element not interactable
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+0   chromedriver                        0x0000000100f22dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100f1b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100a6274c cxxbridge1$string$len + 92632
+3   chromedriver                        0x0000000100aaa68c cxxbridge1$string$len + 387352
+4   chromedriver                        0x0000000100a9f2b0 cxxbridge1$string$len + 341308
+5   chromedriver                        0x0000000100a9ed3c cxxbridge1$string$len + 339912
+6   chromedriver                        0x0000000100aea7b8 cxxbridge1$string$len + 649796
+7   chromedriver                        0x0000000100a9da80 cxxbridge1$string$len + 335116
+8   chromedriver                        0x0000000100ee7c74 cxxbridge1$str$ptr + 2575000
+9   chromedriver                        0x0000000100eeaf40 cxxbridge1$str$ptr + 2588004
+10  chromedriver                        0x0000000100ec79fc cxxbridge1$str$ptr + 2443296
+11  chromedriver                        0x0000000100eeb7bc cxxbridge1$str$ptr + 2590176
+12  chromedriver                        0x0000000100eb8af0 cxxbridge1$str$ptr + 2382100
+13  chromedriver                        0x0000000100f0b9a0 cxxbridge1$str$ptr + 2721732
+14  chromedriver                        0x0000000100f0bb2c cxxbridge1$str$ptr + 2722128
+15  chromedriver                        0x0000000100f1acd4 cxxbridge1$str$ptr + 2783992
+16  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:17,330 - ERROR - Error processing image result 8: Message: element not interactable
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+0   chromedriver                        0x0000000100f22dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100f1b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100a6274c cxxbridge1$string$len + 92632
+3   chromedriver                        0x0000000100aaa68c cxxbridge1$string$len + 387352
+4   chromedriver                        0x0000000100a9f2b0 cxxbridge1$string$len + 341308
+5   chromedriver                        0x0000000100a9ed3c cxxbridge1$string$len + 339912
+6   chromedriver                        0x0000000100aea7b8 cxxbridge1$string$len + 649796
+7   chromedriver                        0x0000000100a9da80 cxxbridge1$string$len + 335116
+8   chromedriver                        0x0000000100ee7c74 cxxbridge1$str$ptr + 2575000
+9   chromedriver                        0x0000000100eeaf40 cxxbridge1$str$ptr + 2588004
+10  chromedriver                        0x0000000100ec79fc cxxbridge1$str$ptr + 2443296
+11  chromedriver                        0x0000000100eeb7bc cxxbridge1$str$ptr + 2590176
+12  chromedriver                        0x0000000100eb8af0 cxxbridge1$str$ptr + 2382100
+13  chromedriver                        0x0000000100f0b9a0 cxxbridge1$str$ptr + 2721732
+14  chromedriver                        0x0000000100f0bb2c cxxbridge1$str$ptr + 2722128
+15  chromedriver                        0x0000000100f1acd4 cxxbridge1$str$ptr + 2783992
+16  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:17,337 - ERROR - Error processing image result 9: Message: element not interactable
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+0   chromedriver                        0x0000000100f22dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100f1b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100a6274c cxxbridge1$string$len + 92632
+3   chromedriver                        0x0000000100aaa68c cxxbridge1$string$len + 387352
+4   chromedriver                        0x0000000100a9f2b0 cxxbridge1$string$len + 341308
+5   chromedriver                        0x0000000100a9ed3c cxxbridge1$string$len + 339912
+6   chromedriver                        0x0000000100aea7b8 cxxbridge1$string$len + 649796
+7   chromedriver                        0x0000000100a9da80 cxxbridge1$string$len + 335116
+8   chromedriver                        0x0000000100ee7c74 cxxbridge1$str$ptr + 2575000
+9   chromedriver                        0x0000000100eeaf40 cxxbridge1$str$ptr + 2588004
+10  chromedriver                        0x0000000100ec79fc cxxbridge1$str$ptr + 2443296
+11  chromedriver                        0x0000000100eeb7bc cxxbridge1$str$ptr + 2590176
+12  chromedriver                        0x0000000100eb8af0 cxxbridge1$str$ptr + 2382100
+13  chromedriver                        0x0000000100f0b9a0 cxxbridge1$str$ptr + 2721732
+14  chromedriver                        0x0000000100f0bb2c cxxbridge1$str$ptr + 2722128
+15  chromedriver                        0x0000000100f1acd4 cxxbridge1$str$ptr + 2783992
+16  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:17,344 - ERROR - Error processing image result 10: Message: element not interactable
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+0   chromedriver                        0x0000000100f22dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100f1b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100a6274c cxxbridge1$string$len + 92632
+3   chromedriver                        0x0000000100aaa68c cxxbridge1$string$len + 387352
+4   chromedriver                        0x0000000100a9f2b0 cxxbridge1$string$len + 341308
+5   chromedriver                        0x0000000100a9ed3c cxxbridge1$string$len + 339912
+6   chromedriver                        0x0000000100aea7b8 cxxbridge1$string$len + 649796
+7   chromedriver                        0x0000000100a9da80 cxxbridge1$string$len + 335116
+8   chromedriver                        0x0000000100ee7c74 cxxbridge1$str$ptr + 2575000
+9   chromedriver                        0x0000000100eeaf40 cxxbridge1$str$ptr + 2588004
+10  chromedriver                        0x0000000100ec79fc cxxbridge1$str$ptr + 2443296
+11  chromedriver                        0x0000000100eeb7bc cxxbridge1$str$ptr + 2590176
+12  chromedriver                        0x0000000100eb8af0 cxxbridge1$str$ptr + 2382100
+13  chromedriver                        0x0000000100f0b9a0 cxxbridge1$str$ptr + 2721732
+14  chromedriver                        0x0000000100f0bb2c cxxbridge1$str$ptr + 2722128
+15  chromedriver                        0x0000000100f1acd4 cxxbridge1$str$ptr + 2783992
+16  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:19,627 - ERROR - Error processing image result 12: Message: stale element reference: stale element not found
+  (Session info: chrome=135.0.7049.115); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000105076dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x000000010506f088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000104bb68d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000104bc7264 cxxbridge1$string$len + 161008
+4   chromedriver                        0x0000000104bc6318 cxxbridge1$string$len + 157092
+5   chromedriver                        0x0000000104bbcda4 cxxbridge1$string$len + 118832
+6   chromedriver                        0x0000000104bbb594 cxxbridge1$string$len + 112672
+7   chromedriver                        0x0000000104bbe818 cxxbridge1$string$len + 125604
+8   chromedriver                        0x0000000104bbe8c0 cxxbridge1$string$len + 125772
+9   chromedriver                        0x0000000104bfd270 cxxbridge1$string$len + 382204
+10  chromedriver                        0x0000000104bf2d3c cxxbridge1$string$len + 339912
+11  chromedriver                        0x0000000104c3e7b8 cxxbridge1$string$len + 649796
+12  chromedriver                        0x0000000104bf1a80 cxxbridge1$string$len + 335116
+13  chromedriver                        0x000000010503bc74 cxxbridge1$str$ptr + 2575000
+14  chromedriver                        0x000000010503ef40 cxxbridge1$str$ptr + 2588004
+15  chromedriver                        0x000000010501b9fc cxxbridge1$str$ptr + 2443296
+16  chromedriver                        0x000000010503f7bc cxxbridge1$str$ptr + 2590176
+17  chromedriver                        0x000000010500caf0 cxxbridge1$str$ptr + 2382100
+18  chromedriver                        0x000000010505f9a0 cxxbridge1$str$ptr + 2721732
+19  chromedriver                        0x000000010505fb2c cxxbridge1$str$ptr + 2722128
+20  chromedriver                        0x000000010506ecd4 cxxbridge1$str$ptr + 2783992
+21  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+22  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:19,630 - ERROR - Error processing image result 13: Message: stale element reference: stale element not found
+  (Session info: chrome=135.0.7049.115); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000105076dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x000000010506f088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000104bb68d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000104bc7264 cxxbridge1$string$len + 161008
+4   chromedriver                        0x0000000104bc6318 cxxbridge1$string$len + 157092
+5   chromedriver                        0x0000000104bbcda4 cxxbridge1$string$len + 118832
+6   chromedriver                        0x0000000104bbb594 cxxbridge1$string$len + 112672
+7   chromedriver                        0x0000000104bbe818 cxxbridge1$string$len + 125604
+8   chromedriver                        0x0000000104bbe8c0 cxxbridge1$string$len + 125772
+9   chromedriver                        0x0000000104bfefe4 cxxbridge1$string$len + 389744
+10  chromedriver                        0x0000000104bf3224 cxxbridge1$string$len + 341168
+11  chromedriver                        0x0000000104bf2d3c cxxbridge1$string$len + 339912
+12  chromedriver                        0x0000000104c3e7b8 cxxbridge1$string$len + 649796
+13  chromedriver                        0x0000000104bf1a80 cxxbridge1$string$len + 335116
+14  chromedriver                        0x000000010503bc74 cxxbridge1$str$ptr + 2575000
+15  chromedriver                        0x000000010503ef40 cxxbridge1$str$ptr + 2588004
+16  chromedriver                        0x000000010501b9fc cxxbridge1$str$ptr + 2443296
+17  chromedriver                        0x000000010503f7bc cxxbridge1$str$ptr + 2590176
+18  chromedriver                        0x000000010500caf0 cxxbridge1$str$ptr + 2382100
+19  chromedriver                        0x000000010505f9a0 cxxbridge1$str$ptr + 2721732
+20  chromedriver                        0x000000010505fb2c cxxbridge1$str$ptr + 2722128
+21  chromedriver                        0x000000010506ecd4 cxxbridge1$str$ptr + 2783992
+22  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+23  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:19,633 - ERROR - Error processing image result 14: Message: stale element reference: stale element not found
+  (Session info: chrome=135.0.7049.115); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000105076dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x000000010506f088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000104bb68d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000104bc7264 cxxbridge1$string$len + 161008
+4   chromedriver                        0x0000000104bc6318 cxxbridge1$string$len + 157092
+5   chromedriver                        0x0000000104bbcda4 cxxbridge1$string$len + 118832
+6   chromedriver                        0x0000000104bbb594 cxxbridge1$string$len + 112672
+7   chromedriver                        0x0000000104bbe818 cxxbridge1$string$len + 125604
+8   chromedriver                        0x0000000104bbe8c0 cxxbridge1$string$len + 125772
+9   chromedriver                        0x0000000104bfefe4 cxxbridge1$string$len + 389744
+10  chromedriver                        0x0000000104bf3224 cxxbridge1$string$len + 341168
+11  chromedriver                        0x0000000104bf2d3c cxxbridge1$string$len + 339912
+12  chromedriver                        0x0000000104c3e7b8 cxxbridge1$string$len + 649796
+13  chromedriver                        0x0000000104bf1a80 cxxbridge1$string$len + 335116
+14  chromedriver                        0x000000010503bc74 cxxbridge1$str$ptr + 2575000
+15  chromedriver                        0x000000010503ef40 cxxbridge1$str$ptr + 2588004
+16  chromedriver                        0x000000010501b9fc cxxbridge1$str$ptr + 2443296
+17  chromedriver                        0x000000010503f7bc cxxbridge1$str$ptr + 2590176
+18  chromedriver                        0x000000010500caf0 cxxbridge1$str$ptr + 2382100
+19  chromedriver                        0x000000010505f9a0 cxxbridge1$str$ptr + 2721732
+20  chromedriver                        0x000000010505fb2c cxxbridge1$str$ptr + 2722128
+21  chromedriver                        0x000000010506ecd4 cxxbridge1$str$ptr + 2783992
+22  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+23  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:19,638 - ERROR - Error processing image result 15: Message: stale element reference: stale element not found
+  (Session info: chrome=135.0.7049.115); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000105076dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x000000010506f088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000104bb68d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000104bc7264 cxxbridge1$string$len + 161008
+4   chromedriver                        0x0000000104bc6318 cxxbridge1$string$len + 157092
+5   chromedriver                        0x0000000104bbcda4 cxxbridge1$string$len + 118832
+6   chromedriver                        0x0000000104bbb594 cxxbridge1$string$len + 112672
+7   chromedriver                        0x0000000104bbe818 cxxbridge1$string$len + 125604
+8   chromedriver                        0x0000000104bbe8c0 cxxbridge1$string$len + 125772
+9   chromedriver                        0x0000000104bfefe4 cxxbridge1$string$len + 389744
+10  chromedriver                        0x0000000104bf3224 cxxbridge1$string$len + 341168
+11  chromedriver                        0x0000000104bf2d3c cxxbridge1$string$len + 339912
+12  chromedriver                        0x0000000104c3e7b8 cxxbridge1$string$len + 649796
+13  chromedriver                        0x0000000104bf1a80 cxxbridge1$string$len + 335116
+14  chromedriver                        0x000000010503bc74 cxxbridge1$str$ptr + 2575000
+15  chromedriver                        0x000000010503ef40 cxxbridge1$str$ptr + 2588004
+16  chromedriver                        0x000000010501b9fc cxxbridge1$str$ptr + 2443296
+17  chromedriver                        0x000000010503f7bc cxxbridge1$str$ptr + 2590176
+18  chromedriver                        0x000000010500caf0 cxxbridge1$str$ptr + 2382100
+19  chromedriver                        0x000000010505f9a0 cxxbridge1$str$ptr + 2721732
+20  chromedriver                        0x000000010505fb2c cxxbridge1$str$ptr + 2722128
+21  chromedriver                        0x000000010506ecd4 cxxbridge1$str$ptr + 2783992
+22  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+23  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:19,640 - ERROR - Error processing image result 16: Message: stale element reference: stale element not found
+  (Session info: chrome=135.0.7049.115); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000105076dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x000000010506f088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000104bb68d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000104bc7264 cxxbridge1$string$len + 161008
+4   chromedriver                        0x0000000104bc6318 cxxbridge1$string$len + 157092
+5   chromedriver                        0x0000000104bbcda4 cxxbridge1$string$len + 118832
+6   chromedriver                        0x0000000104bbb594 cxxbridge1$string$len + 112672
+7   chromedriver                        0x0000000104bbe818 cxxbridge1$string$len + 125604
+8   chromedriver                        0x0000000104bbe8c0 cxxbridge1$string$len + 125772
+9   chromedriver                        0x0000000104bfefe4 cxxbridge1$string$len + 389744
+10  chromedriver                        0x0000000104bf3224 cxxbridge1$string$len + 341168
+11  chromedriver                        0x0000000104bf2d3c cxxbridge1$string$len + 339912
+12  chromedriver                        0x0000000104c3e7b8 cxxbridge1$string$len + 649796
+13  chromedriver                        0x0000000104bf1a80 cxxbridge1$string$len + 335116
+14  chromedriver                        0x000000010503bc74 cxxbridge1$str$ptr + 2575000
+15  chromedriver                        0x000000010503ef40 cxxbridge1$str$ptr + 2588004
+16  chromedriver                        0x000000010501b9fc cxxbridge1$str$ptr + 2443296
+17  chromedriver                        0x000000010503f7bc cxxbridge1$str$ptr + 2590176
+18  chromedriver                        0x000000010500caf0 cxxbridge1$str$ptr + 2382100
+19  chromedriver                        0x000000010505f9a0 cxxbridge1$str$ptr + 2721732
+20  chromedriver                        0x000000010505fb2c cxxbridge1$str$ptr + 2722128
+21  chromedriver                        0x000000010506ecd4 cxxbridge1$str$ptr + 2783992
+22  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+23  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:19,641 - ERROR - Error processing image result 17: Message: stale element reference: stale element not found
+  (Session info: chrome=135.0.7049.115); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000105076dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x000000010506f088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000104bb68d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000104bc7264 cxxbridge1$string$len + 161008
+4   chromedriver                        0x0000000104bc6318 cxxbridge1$string$len + 157092
+5   chromedriver                        0x0000000104bbcda4 cxxbridge1$string$len + 118832
+6   chromedriver                        0x0000000104bbb594 cxxbridge1$string$len + 112672
+7   chromedriver                        0x0000000104bbe818 cxxbridge1$string$len + 125604
+8   chromedriver                        0x0000000104bbe8c0 cxxbridge1$string$len + 125772
+9   chromedriver                        0x0000000104bfefe4 cxxbridge1$string$len + 389744
+10  chromedriver                        0x0000000104bf3224 cxxbridge1$string$len + 341168
+11  chromedriver                        0x0000000104bf2d3c cxxbridge1$string$len + 339912
+12  chromedriver                        0x0000000104c3e7b8 cxxbridge1$string$len + 649796
+13  chromedriver                        0x0000000104bf1a80 cxxbridge1$string$len + 335116
+14  chromedriver                        0x000000010503bc74 cxxbridge1$str$ptr + 2575000
+15  chromedriver                        0x000000010503ef40 cxxbridge1$str$ptr + 2588004
+16  chromedriver                        0x000000010501b9fc cxxbridge1$str$ptr + 2443296
+17  chromedriver                        0x000000010503f7bc cxxbridge1$str$ptr + 2590176
+18  chromedriver                        0x000000010500caf0 cxxbridge1$str$ptr + 2382100
+19  chromedriver                        0x000000010505f9a0 cxxbridge1$str$ptr + 2721732
+20  chromedriver                        0x000000010505fb2c cxxbridge1$str$ptr + 2722128
+21  chromedriver                        0x000000010506ecd4 cxxbridge1$str$ptr + 2783992
+22  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+23  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:19,649 - ERROR - Error processing image result 18: Message: stale element reference: stale element not found
+  (Session info: chrome=135.0.7049.115); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000105076dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x000000010506f088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000104bb68d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000104bc7264 cxxbridge1$string$len + 161008
+4   chromedriver                        0x0000000104bc6318 cxxbridge1$string$len + 157092
+5   chromedriver                        0x0000000104bbcda4 cxxbridge1$string$len + 118832
+6   chromedriver                        0x0000000104bbb594 cxxbridge1$string$len + 112672
+7   chromedriver                        0x0000000104bbe818 cxxbridge1$string$len + 125604
+8   chromedriver                        0x0000000104bbe8c0 cxxbridge1$string$len + 125772
+9   chromedriver                        0x0000000104bfefe4 cxxbridge1$string$len + 389744
+10  chromedriver                        0x0000000104bf3224 cxxbridge1$string$len + 341168
+11  chromedriver                        0x0000000104bf2d3c cxxbridge1$string$len + 339912
+12  chromedriver                        0x0000000104c3e7b8 cxxbridge1$string$len + 649796
+13  chromedriver                        0x0000000104bf1a80 cxxbridge1$string$len + 335116
+14  chromedriver                        0x000000010503bc74 cxxbridge1$str$ptr + 2575000
+15  chromedriver                        0x000000010503ef40 cxxbridge1$str$ptr + 2588004
+16  chromedriver                        0x000000010501b9fc cxxbridge1$str$ptr + 2443296
+17  chromedriver                        0x000000010503f7bc cxxbridge1$str$ptr + 2590176
+18  chromedriver                        0x000000010500caf0 cxxbridge1$str$ptr + 2382100
+19  chromedriver                        0x000000010505f9a0 cxxbridge1$str$ptr + 2721732
+20  chromedriver                        0x000000010505fb2c cxxbridge1$str$ptr + 2722128
+21  chromedriver                        0x000000010506ecd4 cxxbridge1$str$ptr + 2783992
+22  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+23  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:19,650 - ERROR - Error processing image result 19: Message: stale element reference: stale element not found
+  (Session info: chrome=135.0.7049.115); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000105076dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x000000010506f088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000104bb68d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000104bc7264 cxxbridge1$string$len + 161008
+4   chromedriver                        0x0000000104bc6318 cxxbridge1$string$len + 157092
+5   chromedriver                        0x0000000104bbcda4 cxxbridge1$string$len + 118832
+6   chromedriver                        0x0000000104bbb594 cxxbridge1$string$len + 112672
+7   chromedriver                        0x0000000104bbe818 cxxbridge1$string$len + 125604
+8   chromedriver                        0x0000000104bbe8c0 cxxbridge1$string$len + 125772
+9   chromedriver                        0x0000000104bfefe4 cxxbridge1$string$len + 389744
+10  chromedriver                        0x0000000104bf3224 cxxbridge1$string$len + 341168
+11  chromedriver                        0x0000000104bf2d3c cxxbridge1$string$len + 339912
+12  chromedriver                        0x0000000104c3e7b8 cxxbridge1$string$len + 649796
+13  chromedriver                        0x0000000104bf1a80 cxxbridge1$string$len + 335116
+14  chromedriver                        0x000000010503bc74 cxxbridge1$str$ptr + 2575000
+15  chromedriver                        0x000000010503ef40 cxxbridge1$str$ptr + 2588004
+16  chromedriver                        0x000000010501b9fc cxxbridge1$str$ptr + 2443296
+17  chromedriver                        0x000000010503f7bc cxxbridge1$str$ptr + 2590176
+18  chromedriver                        0x000000010500caf0 cxxbridge1$str$ptr + 2382100
+19  chromedriver                        0x000000010505f9a0 cxxbridge1$str$ptr + 2721732
+20  chromedriver                        0x000000010505fb2c cxxbridge1$str$ptr + 2722128
+21  chromedriver                        0x000000010506ecd4 cxxbridge1$str$ptr + 2783992
+22  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+23  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:19,658 - INFO - Browser returned to pool or closed
+2025-05-01 17:09:19,662 - INFO - Returning 0 image results in 12.06 seconds
+2025-05-01 17:09:21,051 - ERROR - Error processing image result 12: Message: stale element reference: stale element not found
+  (Session info: chrome=135.0.7049.115); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000100f22dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100f1b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100a628d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000100a73264 cxxbridge1$string$len + 161008
+4   chromedriver                        0x0000000100a72318 cxxbridge1$string$len + 157092
+5   chromedriver                        0x0000000100a68da4 cxxbridge1$string$len + 118832
+6   chromedriver                        0x0000000100a67594 cxxbridge1$string$len + 112672
+7   chromedriver                        0x0000000100a6a818 cxxbridge1$string$len + 125604
+8   chromedriver                        0x0000000100a6a8c0 cxxbridge1$string$len + 125772
+9   chromedriver                        0x0000000100aa9270 cxxbridge1$string$len + 382204
+10  chromedriver                        0x0000000100a9ed3c cxxbridge1$string$len + 339912
+11  chromedriver                        0x0000000100aea7b8 cxxbridge1$string$len + 649796
+12  chromedriver                        0x0000000100a9da80 cxxbridge1$string$len + 335116
+13  chromedriver                        0x0000000100ee7c74 cxxbridge1$str$ptr + 2575000
+14  chromedriver                        0x0000000100eeaf40 cxxbridge1$str$ptr + 2588004
+15  chromedriver                        0x0000000100ec79fc cxxbridge1$str$ptr + 2443296
+16  chromedriver                        0x0000000100eeb7bc cxxbridge1$str$ptr + 2590176
+17  chromedriver                        0x0000000100eb8af0 cxxbridge1$str$ptr + 2382100
+18  chromedriver                        0x0000000100f0b9a0 cxxbridge1$str$ptr + 2721732
+19  chromedriver                        0x0000000100f0bb2c cxxbridge1$str$ptr + 2722128
+20  chromedriver                        0x0000000100f1acd4 cxxbridge1$str$ptr + 2783992
+21  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+22  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:21,057 - ERROR - Error processing image result 13: Message: stale element reference: stale element not found
+  (Session info: chrome=135.0.7049.115); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000100f22dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100f1b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100a628d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000100a73264 cxxbridge1$string$len + 161008
+4   chromedriver                        0x0000000100a72318 cxxbridge1$string$len + 157092
+5   chromedriver                        0x0000000100a68da4 cxxbridge1$string$len + 118832
+6   chromedriver                        0x0000000100a67594 cxxbridge1$string$len + 112672
+7   chromedriver                        0x0000000100a6a818 cxxbridge1$string$len + 125604
+8   chromedriver                        0x0000000100a6a8c0 cxxbridge1$string$len + 125772
+9   chromedriver                        0x0000000100aaafe4 cxxbridge1$string$len + 389744
+10  chromedriver                        0x0000000100a9f224 cxxbridge1$string$len + 341168
+11  chromedriver                        0x0000000100a9ed3c cxxbridge1$string$len + 339912
+12  chromedriver                        0x0000000100aea7b8 cxxbridge1$string$len + 649796
+13  chromedriver                        0x0000000100a9da80 cxxbridge1$string$len + 335116
+14  chromedriver                        0x0000000100ee7c74 cxxbridge1$str$ptr + 2575000
+15  chromedriver                        0x0000000100eeaf40 cxxbridge1$str$ptr + 2588004
+16  chromedriver                        0x0000000100ec79fc cxxbridge1$str$ptr + 2443296
+17  chromedriver                        0x0000000100eeb7bc cxxbridge1$str$ptr + 2590176
+18  chromedriver                        0x0000000100eb8af0 cxxbridge1$str$ptr + 2382100
+19  chromedriver                        0x0000000100f0b9a0 cxxbridge1$str$ptr + 2721732
+20  chromedriver                        0x0000000100f0bb2c cxxbridge1$str$ptr + 2722128
+21  chromedriver                        0x0000000100f1acd4 cxxbridge1$str$ptr + 2783992
+22  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+23  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:21,062 - ERROR - Error processing image result 14: Message: stale element reference: stale element not found
+  (Session info: chrome=135.0.7049.115); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000100f22dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100f1b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100a628d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000100a73264 cxxbridge1$string$len + 161008
+4   chromedriver                        0x0000000100a72318 cxxbridge1$string$len + 157092
+5   chromedriver                        0x0000000100a68da4 cxxbridge1$string$len + 118832
+6   chromedriver                        0x0000000100a67594 cxxbridge1$string$len + 112672
+7   chromedriver                        0x0000000100a6a818 cxxbridge1$string$len + 125604
+8   chromedriver                        0x0000000100a6a8c0 cxxbridge1$string$len + 125772
+9   chromedriver                        0x0000000100aaafe4 cxxbridge1$string$len + 389744
+10  chromedriver                        0x0000000100a9f224 cxxbridge1$string$len + 341168
+11  chromedriver                        0x0000000100a9ed3c cxxbridge1$string$len + 339912
+12  chromedriver                        0x0000000100aea7b8 cxxbridge1$string$len + 649796
+13  chromedriver                        0x0000000100a9da80 cxxbridge1$string$len + 335116
+14  chromedriver                        0x0000000100ee7c74 cxxbridge1$str$ptr + 2575000
+15  chromedriver                        0x0000000100eeaf40 cxxbridge1$str$ptr + 2588004
+16  chromedriver                        0x0000000100ec79fc cxxbridge1$str$ptr + 2443296
+17  chromedriver                        0x0000000100eeb7bc cxxbridge1$str$ptr + 2590176
+18  chromedriver                        0x0000000100eb8af0 cxxbridge1$str$ptr + 2382100
+19  chromedriver                        0x0000000100f0b9a0 cxxbridge1$str$ptr + 2721732
+20  chromedriver                        0x0000000100f0bb2c cxxbridge1$str$ptr + 2722128
+21  chromedriver                        0x0000000100f1acd4 cxxbridge1$str$ptr + 2783992
+22  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+23  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:21,070 - ERROR - Error processing image result 15: Message: stale element reference: stale element not found
+  (Session info: chrome=135.0.7049.115); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000100f22dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100f1b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100a628d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000100a73264 cxxbridge1$string$len + 161008
+4   chromedriver                        0x0000000100a72318 cxxbridge1$string$len + 157092
+5   chromedriver                        0x0000000100a68da4 cxxbridge1$string$len + 118832
+6   chromedriver                        0x0000000100a67594 cxxbridge1$string$len + 112672
+7   chromedriver                        0x0000000100a6a818 cxxbridge1$string$len + 125604
+8   chromedriver                        0x0000000100a6a8c0 cxxbridge1$string$len + 125772
+9   chromedriver                        0x0000000100aaafe4 cxxbridge1$string$len + 389744
+10  chromedriver                        0x0000000100a9f224 cxxbridge1$string$len + 341168
+11  chromedriver                        0x0000000100a9ed3c cxxbridge1$string$len + 339912
+12  chromedriver                        0x0000000100aea7b8 cxxbridge1$string$len + 649796
+13  chromedriver                        0x0000000100a9da80 cxxbridge1$string$len + 335116
+14  chromedriver                        0x0000000100ee7c74 cxxbridge1$str$ptr + 2575000
+15  chromedriver                        0x0000000100eeaf40 cxxbridge1$str$ptr + 2588004
+16  chromedriver                        0x0000000100ec79fc cxxbridge1$str$ptr + 2443296
+17  chromedriver                        0x0000000100eeb7bc cxxbridge1$str$ptr + 2590176
+18  chromedriver                        0x0000000100eb8af0 cxxbridge1$str$ptr + 2382100
+19  chromedriver                        0x0000000100f0b9a0 cxxbridge1$str$ptr + 2721732
+20  chromedriver                        0x0000000100f0bb2c cxxbridge1$str$ptr + 2722128
+21  chromedriver                        0x0000000100f1acd4 cxxbridge1$str$ptr + 2783992
+22  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+23  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:21,073 - ERROR - Error processing image result 16: Message: stale element reference: stale element not found
+  (Session info: chrome=135.0.7049.115); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000100f22dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100f1b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100a628d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000100a73264 cxxbridge1$string$len + 161008
+4   chromedriver                        0x0000000100a72318 cxxbridge1$string$len + 157092
+5   chromedriver                        0x0000000100a68da4 cxxbridge1$string$len + 118832
+6   chromedriver                        0x0000000100a67594 cxxbridge1$string$len + 112672
+7   chromedriver                        0x0000000100a6a818 cxxbridge1$string$len + 125604
+8   chromedriver                        0x0000000100a6a8c0 cxxbridge1$string$len + 125772
+9   chromedriver                        0x0000000100aaafe4 cxxbridge1$string$len + 389744
+10  chromedriver                        0x0000000100a9f224 cxxbridge1$string$len + 341168
+11  chromedriver                        0x0000000100a9ed3c cxxbridge1$string$len + 339912
+12  chromedriver                        0x0000000100aea7b8 cxxbridge1$string$len + 649796
+13  chromedriver                        0x0000000100a9da80 cxxbridge1$string$len + 335116
+14  chromedriver                        0x0000000100ee7c74 cxxbridge1$str$ptr + 2575000
+15  chromedriver                        0x0000000100eeaf40 cxxbridge1$str$ptr + 2588004
+16  chromedriver                        0x0000000100ec79fc cxxbridge1$str$ptr + 2443296
+17  chromedriver                        0x0000000100eeb7bc cxxbridge1$str$ptr + 2590176
+18  chromedriver                        0x0000000100eb8af0 cxxbridge1$str$ptr + 2382100
+19  chromedriver                        0x0000000100f0b9a0 cxxbridge1$str$ptr + 2721732
+20  chromedriver                        0x0000000100f0bb2c cxxbridge1$str$ptr + 2722128
+21  chromedriver                        0x0000000100f1acd4 cxxbridge1$str$ptr + 2783992
+22  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+23  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:21,076 - ERROR - Error processing image result 17: Message: stale element reference: stale element not found
+  (Session info: chrome=135.0.7049.115); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000100f22dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100f1b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100a628d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000100a73264 cxxbridge1$string$len + 161008
+4   chromedriver                        0x0000000100a72318 cxxbridge1$string$len + 157092
+5   chromedriver                        0x0000000100a68da4 cxxbridge1$string$len + 118832
+6   chromedriver                        0x0000000100a67594 cxxbridge1$string$len + 112672
+7   chromedriver                        0x0000000100a6a818 cxxbridge1$string$len + 125604
+8   chromedriver                        0x0000000100a6a8c0 cxxbridge1$string$len + 125772
+9   chromedriver                        0x0000000100aaafe4 cxxbridge1$string$len + 389744
+10  chromedriver                        0x0000000100a9f224 cxxbridge1$string$len + 341168
+11  chromedriver                        0x0000000100a9ed3c cxxbridge1$string$len + 339912
+12  chromedriver                        0x0000000100aea7b8 cxxbridge1$string$len + 649796
+13  chromedriver                        0x0000000100a9da80 cxxbridge1$string$len + 335116
+14  chromedriver                        0x0000000100ee7c74 cxxbridge1$str$ptr + 2575000
+15  chromedriver                        0x0000000100eeaf40 cxxbridge1$str$ptr + 2588004
+16  chromedriver                        0x0000000100ec79fc cxxbridge1$str$ptr + 2443296
+17  chromedriver                        0x0000000100eeb7bc cxxbridge1$str$ptr + 2590176
+18  chromedriver                        0x0000000100eb8af0 cxxbridge1$str$ptr + 2382100
+19  chromedriver                        0x0000000100f0b9a0 cxxbridge1$str$ptr + 2721732
+20  chromedriver                        0x0000000100f0bb2c cxxbridge1$str$ptr + 2722128
+21  chromedriver                        0x0000000100f1acd4 cxxbridge1$str$ptr + 2783992
+22  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+23  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:21,079 - ERROR - Error processing image result 18: Message: stale element reference: stale element not found
+  (Session info: chrome=135.0.7049.115); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000100f22dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100f1b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100a628d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000100a73264 cxxbridge1$string$len + 161008
+4   chromedriver                        0x0000000100a72318 cxxbridge1$string$len + 157092
+5   chromedriver                        0x0000000100a68da4 cxxbridge1$string$len + 118832
+6   chromedriver                        0x0000000100a67594 cxxbridge1$string$len + 112672
+7   chromedriver                        0x0000000100a6a818 cxxbridge1$string$len + 125604
+8   chromedriver                        0x0000000100a6a8c0 cxxbridge1$string$len + 125772
+9   chromedriver                        0x0000000100aaafe4 cxxbridge1$string$len + 389744
+10  chromedriver                        0x0000000100a9f224 cxxbridge1$string$len + 341168
+11  chromedriver                        0x0000000100a9ed3c cxxbridge1$string$len + 339912
+12  chromedriver                        0x0000000100aea7b8 cxxbridge1$string$len + 649796
+13  chromedriver                        0x0000000100a9da80 cxxbridge1$string$len + 335116
+14  chromedriver                        0x0000000100ee7c74 cxxbridge1$str$ptr + 2575000
+15  chromedriver                        0x0000000100eeaf40 cxxbridge1$str$ptr + 2588004
+16  chromedriver                        0x0000000100ec79fc cxxbridge1$str$ptr + 2443296
+17  chromedriver                        0x0000000100eeb7bc cxxbridge1$str$ptr + 2590176
+18  chromedriver                        0x0000000100eb8af0 cxxbridge1$str$ptr + 2382100
+19  chromedriver                        0x0000000100f0b9a0 cxxbridge1$str$ptr + 2721732
+20  chromedriver                        0x0000000100f0bb2c cxxbridge1$str$ptr + 2722128
+21  chromedriver                        0x0000000100f1acd4 cxxbridge1$str$ptr + 2783992
+22  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+23  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:21,082 - ERROR - Error processing image result 19: Message: stale element reference: stale element not found
+  (Session info: chrome=135.0.7049.115); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000100f22dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100f1b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100a628d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000100a73264 cxxbridge1$string$len + 161008
+4   chromedriver                        0x0000000100a72318 cxxbridge1$string$len + 157092
+5   chromedriver                        0x0000000100a68da4 cxxbridge1$string$len + 118832
+6   chromedriver                        0x0000000100a67594 cxxbridge1$string$len + 112672
+7   chromedriver                        0x0000000100a6a818 cxxbridge1$string$len + 125604
+8   chromedriver                        0x0000000100a6a8c0 cxxbridge1$string$len + 125772
+9   chromedriver                        0x0000000100aaafe4 cxxbridge1$string$len + 389744
+10  chromedriver                        0x0000000100a9f224 cxxbridge1$string$len + 341168
+11  chromedriver                        0x0000000100a9ed3c cxxbridge1$string$len + 339912
+12  chromedriver                        0x0000000100aea7b8 cxxbridge1$string$len + 649796
+13  chromedriver                        0x0000000100a9da80 cxxbridge1$string$len + 335116
+14  chromedriver                        0x0000000100ee7c74 cxxbridge1$str$ptr + 2575000
+15  chromedriver                        0x0000000100eeaf40 cxxbridge1$str$ptr + 2588004
+16  chromedriver                        0x0000000100ec79fc cxxbridge1$str$ptr + 2443296
+17  chromedriver                        0x0000000100eeb7bc cxxbridge1$str$ptr + 2590176
+18  chromedriver                        0x0000000100eb8af0 cxxbridge1$str$ptr + 2382100
+19  chromedriver                        0x0000000100f0b9a0 cxxbridge1$str$ptr + 2721732
+20  chromedriver                        0x0000000100f0bb2c cxxbridge1$str$ptr + 2722128
+21  chromedriver                        0x0000000100f1acd4 cxxbridge1$str$ptr + 2783992
+22  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+23  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:21,090 - INFO - Browser returned to pool or closed
+2025-05-01 17:09:21,090 - INFO - Returning 0 image results in 13.48 seconds
+2025-05-01 17:09:21,175 - INFO - Image search request received for query: 'bmw', engine: bing
+2025-05-01 17:09:24,564 - INFO - Successfully navigated to bing image search
+2025-05-01 17:09:27,607 - INFO - Found 38 potential Bing image results
+2025-05-01 17:09:28,778 - INFO - Added Bing image result 1: Image result for bmw...
+2025-05-01 17:09:29,858 - ERROR - Error processing Bing image result 1: Message: element click intercepted: Element <li data-idx="2" style="width:268px; height: 228px">...</li> is not clickable at point (442, 321). Other element would receive the click: <iframe id="OverlayIFrame" class="insightsOverlay" data-tag="multimedia.iframeOverlay" title="bmw - Bing images - details" name="bmw - Bing images - details" src="about:blank" style="display: block; color-scheme: none; background-color: rgb(34, 34, 34);" data-bm="293"></iframe>
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+0   chromedriver                        0x0000000100f22dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100f1b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100a628d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000100aaf1a8 cxxbridge1$string$len + 406580
+4   chromedriver                        0x0000000100aad738 cxxbridge1$string$len + 399812
+5   chromedriver                        0x0000000100aab54c cxxbridge1$string$len + 391128
+6   chromedriver                        0x0000000100aaa948 cxxbridge1$string$len + 388052
+7   chromedriver                        0x0000000100a9f2b0 cxxbridge1$string$len + 341308
+8   chromedriver                        0x0000000100a9ed3c cxxbridge1$string$len + 339912
+9   chromedriver                        0x0000000100aea7b8 cxxbridge1$string$len + 649796
+10  chromedriver                        0x0000000100a9da80 cxxbridge1$string$len + 335116
+11  chromedriver                        0x0000000100ee7c74 cxxbridge1$str$ptr + 2575000
+12  chromedriver                        0x0000000100eeaf40 cxxbridge1$str$ptr + 2588004
+13  chromedriver                        0x0000000100ec79fc cxxbridge1$str$ptr + 2443296
+14  chromedriver                        0x0000000100eeb7bc cxxbridge1$str$ptr + 2590176
+15  chromedriver                        0x0000000100eb8af0 cxxbridge1$str$ptr + 2382100
+16  chromedriver                        0x0000000100f0b9a0 cxxbridge1$str$ptr + 2721732
+17  chromedriver                        0x0000000100f0bb2c cxxbridge1$str$ptr + 2722128
+18  chromedriver                        0x0000000100f1acd4 cxxbridge1$str$ptr + 2783992
+19  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:30,967 - ERROR - Error processing Bing image result 2: Message: element click intercepted: Element <li data-idx="3" style="width:306px; height: 228px">...</li> is not clickable at point (737, 321). Other element would receive the click: <iframe id="OverlayIFrame" class="insightsOverlay" data-tag="multimedia.iframeOverlay" title="bmw - Bing images - details" name="bmw - Bing images - details" src="about:blank" style="display: block; color-scheme: none; background-color: rgb(34, 34, 34);" data-bm="293"></iframe>
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+0   chromedriver                        0x0000000100f22dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100f1b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100a628d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000100aaf1a8 cxxbridge1$string$len + 406580
+4   chromedriver                        0x0000000100aad738 cxxbridge1$string$len + 399812
+5   chromedriver                        0x0000000100aab54c cxxbridge1$string$len + 391128
+6   chromedriver                        0x0000000100aaa948 cxxbridge1$string$len + 388052
+7   chromedriver                        0x0000000100a9f2b0 cxxbridge1$string$len + 341308
+8   chromedriver                        0x0000000100a9ed3c cxxbridge1$string$len + 339912
+9   chromedriver                        0x0000000100aea7b8 cxxbridge1$string$len + 649796
+10  chromedriver                        0x0000000100a9da80 cxxbridge1$string$len + 335116
+11  chromedriver                        0x0000000100ee7c74 cxxbridge1$str$ptr + 2575000
+12  chromedriver                        0x0000000100eeaf40 cxxbridge1$str$ptr + 2588004
+13  chromedriver                        0x0000000100ec79fc cxxbridge1$str$ptr + 2443296
+14  chromedriver                        0x0000000100eeb7bc cxxbridge1$str$ptr + 2590176
+15  chromedriver                        0x0000000100eb8af0 cxxbridge1$str$ptr + 2382100
+16  chromedriver                        0x0000000100f0b9a0 cxxbridge1$str$ptr + 2721732
+17  chromedriver                        0x0000000100f0bb2c cxxbridge1$str$ptr + 2722128
+18  chromedriver                        0x0000000100f1acd4 cxxbridge1$str$ptr + 2783992
+19  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:32,080 - ERROR - Error processing Bing image result 3: Message: element click intercepted: Element <li data-idx="4" style="width:296px; height: 228px">...</li> is not clickable at point (1042, 321). Other element would receive the click: <iframe id="OverlayIFrame" class="insightsOverlay" data-tag="multimedia.iframeOverlay" title="bmw - Bing images - details" name="bmw - Bing images - details" src="about:blank" style="display: block; color-scheme: none; background-color: rgb(34, 34, 34);" data-bm="293"></iframe>
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+0   chromedriver                        0x0000000100f22dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100f1b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100a628d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000100aaf1a8 cxxbridge1$string$len + 406580
+4   chromedriver                        0x0000000100aad738 cxxbridge1$string$len + 399812
+5   chromedriver                        0x0000000100aab54c cxxbridge1$string$len + 391128
+6   chromedriver                        0x0000000100aaa948 cxxbridge1$string$len + 388052
+7   chromedriver                        0x0000000100a9f2b0 cxxbridge1$string$len + 341308
+8   chromedriver                        0x0000000100a9ed3c cxxbridge1$string$len + 339912
+9   chromedriver                        0x0000000100aea7b8 cxxbridge1$string$len + 649796
+10  chromedriver                        0x0000000100a9da80 cxxbridge1$string$len + 335116
+11  chromedriver                        0x0000000100ee7c74 cxxbridge1$str$ptr + 2575000
+12  chromedriver                        0x0000000100eeaf40 cxxbridge1$str$ptr + 2588004
+13  chromedriver                        0x0000000100ec79fc cxxbridge1$str$ptr + 2443296
+14  chromedriver                        0x0000000100eeb7bc cxxbridge1$str$ptr + 2590176
+15  chromedriver                        0x0000000100eb8af0 cxxbridge1$str$ptr + 2382100
+16  chromedriver                        0x0000000100f0b9a0 cxxbridge1$str$ptr + 2721732
+17  chromedriver                        0x0000000100f0bb2c cxxbridge1$str$ptr + 2722128
+18  chromedriver                        0x0000000100f1acd4 cxxbridge1$str$ptr + 2783992
+19  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:33,157 - ERROR - Error processing Bing image result 5: Message: element click intercepted: Element <li data-idx="6" style="width:290px; height: 228px">...</li> is not clickable at point (346, 524). Other element would receive the click: <iframe id="OverlayIFrame" class="insightsOverlay" data-tag="multimedia.iframeOverlay" title="bmw - Bing images - details" name="bmw - Bing images - details" src="about:blank" style="display: block; color-scheme: none; background-color: rgb(34, 34, 34);" data-bm="293"></iframe>
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+0   chromedriver                        0x0000000100f22dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100f1b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100a628d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000100aaf1a8 cxxbridge1$string$len + 406580
+4   chromedriver                        0x0000000100aad738 cxxbridge1$string$len + 399812
+5   chromedriver                        0x0000000100aab54c cxxbridge1$string$len + 391128
+6   chromedriver                        0x0000000100aaa948 cxxbridge1$string$len + 388052
+7   chromedriver                        0x0000000100a9f2b0 cxxbridge1$string$len + 341308
+8   chromedriver                        0x0000000100a9ed3c cxxbridge1$string$len + 339912
+9   chromedriver                        0x0000000100aea7b8 cxxbridge1$string$len + 649796
+10  chromedriver                        0x0000000100a9da80 cxxbridge1$string$len + 335116
+11  chromedriver                        0x0000000100ee7c74 cxxbridge1$str$ptr + 2575000
+12  chromedriver                        0x0000000100eeaf40 cxxbridge1$str$ptr + 2588004
+13  chromedriver                        0x0000000100ec79fc cxxbridge1$str$ptr + 2443296
+14  chromedriver                        0x0000000100eeb7bc cxxbridge1$str$ptr + 2590176
+15  chromedriver                        0x0000000100eb8af0 cxxbridge1$str$ptr + 2382100
+16  chromedriver                        0x0000000100f0b9a0 cxxbridge1$str$ptr + 2721732
+17  chromedriver                        0x0000000100f0bb2c cxxbridge1$str$ptr + 2722128
+18  chromedriver                        0x0000000100f1acd4 cxxbridge1$str$ptr + 2783992
+19  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:34,245 - ERROR - Error processing Bing image result 6: Message: element click intercepted: Element <li data-idx="7" style="width:344px; height: 228px">...</li> is not clickable at point (671, 524). Other element would receive the click: <iframe id="OverlayIFrame" class="insightsOverlay" data-tag="multimedia.iframeOverlay" title="bmw - Bing images - details" name="bmw - Bing images - details" src="about:blank" style="display: block; color-scheme: none; background-color: rgb(34, 34, 34);" data-bm="293"></iframe>
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+0   chromedriver                        0x0000000100f22dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100f1b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100a628d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000100aaf1a8 cxxbridge1$string$len + 406580
+4   chromedriver                        0x0000000100aad738 cxxbridge1$string$len + 399812
+5   chromedriver                        0x0000000100aab54c cxxbridge1$string$len + 391128
+6   chromedriver                        0x0000000100aaa948 cxxbridge1$string$len + 388052
+7   chromedriver                        0x0000000100a9f2b0 cxxbridge1$string$len + 341308
+8   chromedriver                        0x0000000100a9ed3c cxxbridge1$string$len + 339912
+9   chromedriver                        0x0000000100aea7b8 cxxbridge1$string$len + 649796
+10  chromedriver                        0x0000000100a9da80 cxxbridge1$string$len + 335116
+11  chromedriver                        0x0000000100ee7c74 cxxbridge1$str$ptr + 2575000
+12  chromedriver                        0x0000000100eeaf40 cxxbridge1$str$ptr + 2588004
+13  chromedriver                        0x0000000100ec79fc cxxbridge1$str$ptr + 2443296
+14  chromedriver                        0x0000000100eeb7bc cxxbridge1$str$ptr + 2590176
+15  chromedriver                        0x0000000100eb8af0 cxxbridge1$str$ptr + 2382100
+16  chromedriver                        0x0000000100f0b9a0 cxxbridge1$str$ptr + 2721732
+17  chromedriver                        0x0000000100f0bb2c cxxbridge1$str$ptr + 2722128
+18  chromedriver                        0x0000000100f1acd4 cxxbridge1$str$ptr + 2783992
+19  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:35,348 - ERROR - Error processing Bing image result 7: Message: element click intercepted: Element <li data-idx="8" style="width:343px; height: 228px">...</li> is not clickable at point (1018, 524). Other element would receive the click: <iframe id="OverlayIFrame" class="insightsOverlay" data-tag="multimedia.iframeOverlay" title="bmw - Bing images - details" name="bmw - Bing images - details" src="about:blank" style="display: block; color-scheme: none; background-color: rgb(34, 34, 34);" data-bm="293"></iframe>
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+0   chromedriver                        0x0000000100f22dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100f1b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100a628d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000100aaf1a8 cxxbridge1$string$len + 406580
+4   chromedriver                        0x0000000100aad738 cxxbridge1$string$len + 399812
+5   chromedriver                        0x0000000100aab54c cxxbridge1$string$len + 391128
+6   chromedriver                        0x0000000100aaa948 cxxbridge1$string$len + 388052
+7   chromedriver                        0x0000000100a9f2b0 cxxbridge1$string$len + 341308
+8   chromedriver                        0x0000000100a9ed3c cxxbridge1$string$len + 339912
+9   chromedriver                        0x0000000100aea7b8 cxxbridge1$string$len + 649796
+10  chromedriver                        0x0000000100a9da80 cxxbridge1$string$len + 335116
+11  chromedriver                        0x0000000100ee7c74 cxxbridge1$str$ptr + 2575000
+12  chromedriver                        0x0000000100eeaf40 cxxbridge1$str$ptr + 2588004
+13  chromedriver                        0x0000000100ec79fc cxxbridge1$str$ptr + 2443296
+14  chromedriver                        0x0000000100eeb7bc cxxbridge1$str$ptr + 2590176
+15  chromedriver                        0x0000000100eb8af0 cxxbridge1$str$ptr + 2382100
+16  chromedriver                        0x0000000100f0b9a0 cxxbridge1$str$ptr + 2721732
+17  chromedriver                        0x0000000100f0bb2c cxxbridge1$str$ptr + 2722128
+18  chromedriver                        0x0000000100f1acd4 cxxbridge1$str$ptr + 2783992
+19  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:35,383 - ERROR - Error processing Bing image result 8: Message: element not interactable
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+0   chromedriver                        0x0000000100f22dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100f1b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100a6274c cxxbridge1$string$len + 92632
+3   chromedriver                        0x0000000100aaa68c cxxbridge1$string$len + 387352
+4   chromedriver                        0x0000000100a9f2b0 cxxbridge1$string$len + 341308
+5   chromedriver                        0x0000000100a9ed3c cxxbridge1$string$len + 339912
+6   chromedriver                        0x0000000100aea7b8 cxxbridge1$string$len + 649796
+7   chromedriver                        0x0000000100a9da80 cxxbridge1$string$len + 335116
+8   chromedriver                        0x0000000100ee7c74 cxxbridge1$str$ptr + 2575000
+9   chromedriver                        0x0000000100eeaf40 cxxbridge1$str$ptr + 2588004
+10  chromedriver                        0x0000000100ec79fc cxxbridge1$str$ptr + 2443296
+11  chromedriver                        0x0000000100eeb7bc cxxbridge1$str$ptr + 2590176
+12  chromedriver                        0x0000000100eb8af0 cxxbridge1$str$ptr + 2382100
+13  chromedriver                        0x0000000100f0b9a0 cxxbridge1$str$ptr + 2721732
+14  chromedriver                        0x0000000100f0bb2c cxxbridge1$str$ptr + 2722128
+15  chromedriver                        0x0000000100f1acd4 cxxbridge1$str$ptr + 2783992
+16  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:35,403 - ERROR - Error processing Bing image result 9: Message: element not interactable
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+0   chromedriver                        0x0000000100f22dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100f1b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100a6274c cxxbridge1$string$len + 92632
+3   chromedriver                        0x0000000100aaa68c cxxbridge1$string$len + 387352
+4   chromedriver                        0x0000000100a9f2b0 cxxbridge1$string$len + 341308
+5   chromedriver                        0x0000000100a9ed3c cxxbridge1$string$len + 339912
+6   chromedriver                        0x0000000100aea7b8 cxxbridge1$string$len + 649796
+7   chromedriver                        0x0000000100a9da80 cxxbridge1$string$len + 335116
+8   chromedriver                        0x0000000100ee7c74 cxxbridge1$str$ptr + 2575000
+9   chromedriver                        0x0000000100eeaf40 cxxbridge1$str$ptr + 2588004
+10  chromedriver                        0x0000000100ec79fc cxxbridge1$str$ptr + 2443296
+11  chromedriver                        0x0000000100eeb7bc cxxbridge1$str$ptr + 2590176
+12  chromedriver                        0x0000000100eb8af0 cxxbridge1$str$ptr + 2382100
+13  chromedriver                        0x0000000100f0b9a0 cxxbridge1$str$ptr + 2721732
+14  chromedriver                        0x0000000100f0bb2c cxxbridge1$str$ptr + 2722128
+15  chromedriver                        0x0000000100f1acd4 cxxbridge1$str$ptr + 2783992
+16  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:35,422 - ERROR - Error processing Bing image result 10: Message: element not interactable
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+0   chromedriver                        0x0000000100f22dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100f1b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100a6274c cxxbridge1$string$len + 92632
+3   chromedriver                        0x0000000100aaa68c cxxbridge1$string$len + 387352
+4   chromedriver                        0x0000000100a9f2b0 cxxbridge1$string$len + 341308
+5   chromedriver                        0x0000000100a9ed3c cxxbridge1$string$len + 339912
+6   chromedriver                        0x0000000100aea7b8 cxxbridge1$string$len + 649796
+7   chromedriver                        0x0000000100a9da80 cxxbridge1$string$len + 335116
+8   chromedriver                        0x0000000100ee7c74 cxxbridge1$str$ptr + 2575000
+9   chromedriver                        0x0000000100eeaf40 cxxbridge1$str$ptr + 2588004
+10  chromedriver                        0x0000000100ec79fc cxxbridge1$str$ptr + 2443296
+11  chromedriver                        0x0000000100eeb7bc cxxbridge1$str$ptr + 2590176
+12  chromedriver                        0x0000000100eb8af0 cxxbridge1$str$ptr + 2382100
+13  chromedriver                        0x0000000100f0b9a0 cxxbridge1$str$ptr + 2721732
+14  chromedriver                        0x0000000100f0bb2c cxxbridge1$str$ptr + 2722128
+15  chromedriver                        0x0000000100f1acd4 cxxbridge1$str$ptr + 2783992
+16  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:35,441 - ERROR - Error processing Bing image result 11: Message: element not interactable
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+0   chromedriver                        0x0000000100f22dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100f1b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100a6274c cxxbridge1$string$len + 92632
+3   chromedriver                        0x0000000100aaa68c cxxbridge1$string$len + 387352
+4   chromedriver                        0x0000000100a9f2b0 cxxbridge1$string$len + 341308
+5   chromedriver                        0x0000000100a9ed3c cxxbridge1$string$len + 339912
+6   chromedriver                        0x0000000100aea7b8 cxxbridge1$string$len + 649796
+7   chromedriver                        0x0000000100a9da80 cxxbridge1$string$len + 335116
+8   chromedriver                        0x0000000100ee7c74 cxxbridge1$str$ptr + 2575000
+9   chromedriver                        0x0000000100eeaf40 cxxbridge1$str$ptr + 2588004
+10  chromedriver                        0x0000000100ec79fc cxxbridge1$str$ptr + 2443296
+11  chromedriver                        0x0000000100eeb7bc cxxbridge1$str$ptr + 2590176
+12  chromedriver                        0x0000000100eb8af0 cxxbridge1$str$ptr + 2382100
+13  chromedriver                        0x0000000100f0b9a0 cxxbridge1$str$ptr + 2721732
+14  chromedriver                        0x0000000100f0bb2c cxxbridge1$str$ptr + 2722128
+15  chromedriver                        0x0000000100f1acd4 cxxbridge1$str$ptr + 2783992
+16  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:35,465 - ERROR - Error processing Bing image result 12: Message: element not interactable
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+0   chromedriver                        0x0000000100f22dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100f1b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100a6274c cxxbridge1$string$len + 92632
+3   chromedriver                        0x0000000100aaa68c cxxbridge1$string$len + 387352
+4   chromedriver                        0x0000000100a9f2b0 cxxbridge1$string$len + 341308
+5   chromedriver                        0x0000000100a9ed3c cxxbridge1$string$len + 339912
+6   chromedriver                        0x0000000100aea7b8 cxxbridge1$string$len + 649796
+7   chromedriver                        0x0000000100a9da80 cxxbridge1$string$len + 335116
+8   chromedriver                        0x0000000100ee7c74 cxxbridge1$str$ptr + 2575000
+9   chromedriver                        0x0000000100eeaf40 cxxbridge1$str$ptr + 2588004
+10  chromedriver                        0x0000000100ec79fc cxxbridge1$str$ptr + 2443296
+11  chromedriver                        0x0000000100eeb7bc cxxbridge1$str$ptr + 2590176
+12  chromedriver                        0x0000000100eb8af0 cxxbridge1$str$ptr + 2382100
+13  chromedriver                        0x0000000100f0b9a0 cxxbridge1$str$ptr + 2721732
+14  chromedriver                        0x0000000100f0bb2c cxxbridge1$str$ptr + 2722128
+15  chromedriver                        0x0000000100f1acd4 cxxbridge1$str$ptr + 2783992
+16  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:35,483 - ERROR - Error processing Bing image result 13: Message: element not interactable
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+0   chromedriver                        0x0000000100f22dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100f1b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100a6274c cxxbridge1$string$len + 92632
+3   chromedriver                        0x0000000100aaa68c cxxbridge1$string$len + 387352
+4   chromedriver                        0x0000000100a9f2b0 cxxbridge1$string$len + 341308
+5   chromedriver                        0x0000000100a9ed3c cxxbridge1$string$len + 339912
+6   chromedriver                        0x0000000100aea7b8 cxxbridge1$string$len + 649796
+7   chromedriver                        0x0000000100a9da80 cxxbridge1$string$len + 335116
+8   chromedriver                        0x0000000100ee7c74 cxxbridge1$str$ptr + 2575000
+9   chromedriver                        0x0000000100eeaf40 cxxbridge1$str$ptr + 2588004
+10  chromedriver                        0x0000000100ec79fc cxxbridge1$str$ptr + 2443296
+11  chromedriver                        0x0000000100eeb7bc cxxbridge1$str$ptr + 2590176
+12  chromedriver                        0x0000000100eb8af0 cxxbridge1$str$ptr + 2382100
+13  chromedriver                        0x0000000100f0b9a0 cxxbridge1$str$ptr + 2721732
+14  chromedriver                        0x0000000100f0bb2c cxxbridge1$str$ptr + 2722128
+15  chromedriver                        0x0000000100f1acd4 cxxbridge1$str$ptr + 2783992
+16  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:35,507 - ERROR - Error processing Bing image result 14: Message: element not interactable
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+0   chromedriver                        0x0000000100f22dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100f1b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100a6274c cxxbridge1$string$len + 92632
+3   chromedriver                        0x0000000100aaa68c cxxbridge1$string$len + 387352
+4   chromedriver                        0x0000000100a9f2b0 cxxbridge1$string$len + 341308
+5   chromedriver                        0x0000000100a9ed3c cxxbridge1$string$len + 339912
+6   chromedriver                        0x0000000100aea7b8 cxxbridge1$string$len + 649796
+7   chromedriver                        0x0000000100a9da80 cxxbridge1$string$len + 335116
+8   chromedriver                        0x0000000100ee7c74 cxxbridge1$str$ptr + 2575000
+9   chromedriver                        0x0000000100eeaf40 cxxbridge1$str$ptr + 2588004
+10  chromedriver                        0x0000000100ec79fc cxxbridge1$str$ptr + 2443296
+11  chromedriver                        0x0000000100eeb7bc cxxbridge1$str$ptr + 2590176
+12  chromedriver                        0x0000000100eb8af0 cxxbridge1$str$ptr + 2382100
+13  chromedriver                        0x0000000100f0b9a0 cxxbridge1$str$ptr + 2721732
+14  chromedriver                        0x0000000100f0bb2c cxxbridge1$str$ptr + 2722128
+15  chromedriver                        0x0000000100f1acd4 cxxbridge1$str$ptr + 2783992
+16  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:35,528 - ERROR - Error processing Bing image result 15: Message: element not interactable
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+0   chromedriver                        0x0000000100f22dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100f1b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100a6274c cxxbridge1$string$len + 92632
+3   chromedriver                        0x0000000100aaa68c cxxbridge1$string$len + 387352
+4   chromedriver                        0x0000000100a9f2b0 cxxbridge1$string$len + 341308
+5   chromedriver                        0x0000000100a9ed3c cxxbridge1$string$len + 339912
+6   chromedriver                        0x0000000100aea7b8 cxxbridge1$string$len + 649796
+7   chromedriver                        0x0000000100a9da80 cxxbridge1$string$len + 335116
+8   chromedriver                        0x0000000100ee7c74 cxxbridge1$str$ptr + 2575000
+9   chromedriver                        0x0000000100eeaf40 cxxbridge1$str$ptr + 2588004
+10  chromedriver                        0x0000000100ec79fc cxxbridge1$str$ptr + 2443296
+11  chromedriver                        0x0000000100eeb7bc cxxbridge1$str$ptr + 2590176
+12  chromedriver                        0x0000000100eb8af0 cxxbridge1$str$ptr + 2382100
+13  chromedriver                        0x0000000100f0b9a0 cxxbridge1$str$ptr + 2721732
+14  chromedriver                        0x0000000100f0bb2c cxxbridge1$str$ptr + 2722128
+15  chromedriver                        0x0000000100f1acd4 cxxbridge1$str$ptr + 2783992
+16  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:35,546 - ERROR - Error processing Bing image result 16: Message: element not interactable
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+0   chromedriver                        0x0000000100f22dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100f1b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100a6274c cxxbridge1$string$len + 92632
+3   chromedriver                        0x0000000100aaa68c cxxbridge1$string$len + 387352
+4   chromedriver                        0x0000000100a9f2b0 cxxbridge1$string$len + 341308
+5   chromedriver                        0x0000000100a9ed3c cxxbridge1$string$len + 339912
+6   chromedriver                        0x0000000100aea7b8 cxxbridge1$string$len + 649796
+7   chromedriver                        0x0000000100a9da80 cxxbridge1$string$len + 335116
+8   chromedriver                        0x0000000100ee7c74 cxxbridge1$str$ptr + 2575000
+9   chromedriver                        0x0000000100eeaf40 cxxbridge1$str$ptr + 2588004
+10  chromedriver                        0x0000000100ec79fc cxxbridge1$str$ptr + 2443296
+11  chromedriver                        0x0000000100eeb7bc cxxbridge1$str$ptr + 2590176
+12  chromedriver                        0x0000000100eb8af0 cxxbridge1$str$ptr + 2382100
+13  chromedriver                        0x0000000100f0b9a0 cxxbridge1$str$ptr + 2721732
+14  chromedriver                        0x0000000100f0bb2c cxxbridge1$str$ptr + 2722128
+15  chromedriver                        0x0000000100f1acd4 cxxbridge1$str$ptr + 2783992
+16  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:35,564 - ERROR - Error processing Bing image result 17: Message: element not interactable
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+0   chromedriver                        0x0000000100f22dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100f1b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100a6274c cxxbridge1$string$len + 92632
+3   chromedriver                        0x0000000100aaa68c cxxbridge1$string$len + 387352
+4   chromedriver                        0x0000000100a9f2b0 cxxbridge1$string$len + 341308
+5   chromedriver                        0x0000000100a9ed3c cxxbridge1$string$len + 339912
+6   chromedriver                        0x0000000100aea7b8 cxxbridge1$string$len + 649796
+7   chromedriver                        0x0000000100a9da80 cxxbridge1$string$len + 335116
+8   chromedriver                        0x0000000100ee7c74 cxxbridge1$str$ptr + 2575000
+9   chromedriver                        0x0000000100eeaf40 cxxbridge1$str$ptr + 2588004
+10  chromedriver                        0x0000000100ec79fc cxxbridge1$str$ptr + 2443296
+11  chromedriver                        0x0000000100eeb7bc cxxbridge1$str$ptr + 2590176
+12  chromedriver                        0x0000000100eb8af0 cxxbridge1$str$ptr + 2382100
+13  chromedriver                        0x0000000100f0b9a0 cxxbridge1$str$ptr + 2721732
+14  chromedriver                        0x0000000100f0bb2c cxxbridge1$str$ptr + 2722128
+15  chromedriver                        0x0000000100f1acd4 cxxbridge1$str$ptr + 2783992
+16  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:35,581 - ERROR - Error processing Bing image result 18: Message: element not interactable
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+0   chromedriver                        0x0000000100f22dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100f1b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100a6274c cxxbridge1$string$len + 92632
+3   chromedriver                        0x0000000100aaa68c cxxbridge1$string$len + 387352
+4   chromedriver                        0x0000000100a9f2b0 cxxbridge1$string$len + 341308
+5   chromedriver                        0x0000000100a9ed3c cxxbridge1$string$len + 339912
+6   chromedriver                        0x0000000100aea7b8 cxxbridge1$string$len + 649796
+7   chromedriver                        0x0000000100a9da80 cxxbridge1$string$len + 335116
+8   chromedriver                        0x0000000100ee7c74 cxxbridge1$str$ptr + 2575000
+9   chromedriver                        0x0000000100eeaf40 cxxbridge1$str$ptr + 2588004
+10  chromedriver                        0x0000000100ec79fc cxxbridge1$str$ptr + 2443296
+11  chromedriver                        0x0000000100eeb7bc cxxbridge1$str$ptr + 2590176
+12  chromedriver                        0x0000000100eb8af0 cxxbridge1$str$ptr + 2382100
+13  chromedriver                        0x0000000100f0b9a0 cxxbridge1$str$ptr + 2721732
+14  chromedriver                        0x0000000100f0bb2c cxxbridge1$str$ptr + 2722128
+15  chromedriver                        0x0000000100f1acd4 cxxbridge1$str$ptr + 2783992
+16  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:35,599 - ERROR - Error processing Bing image result 19: Message: element not interactable
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+0   chromedriver                        0x0000000100f22dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100f1b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100a6274c cxxbridge1$string$len + 92632
+3   chromedriver                        0x0000000100aaa68c cxxbridge1$string$len + 387352
+4   chromedriver                        0x0000000100a9f2b0 cxxbridge1$string$len + 341308
+5   chromedriver                        0x0000000100a9ed3c cxxbridge1$string$len + 339912
+6   chromedriver                        0x0000000100aea7b8 cxxbridge1$string$len + 649796
+7   chromedriver                        0x0000000100a9da80 cxxbridge1$string$len + 335116
+8   chromedriver                        0x0000000100ee7c74 cxxbridge1$str$ptr + 2575000
+9   chromedriver                        0x0000000100eeaf40 cxxbridge1$str$ptr + 2588004
+10  chromedriver                        0x0000000100ec79fc cxxbridge1$str$ptr + 2443296
+11  chromedriver                        0x0000000100eeb7bc cxxbridge1$str$ptr + 2590176
+12  chromedriver                        0x0000000100eb8af0 cxxbridge1$str$ptr + 2382100
+13  chromedriver                        0x0000000100f0b9a0 cxxbridge1$str$ptr + 2721732
+14  chromedriver                        0x0000000100f0bb2c cxxbridge1$str$ptr + 2722128
+15  chromedriver                        0x0000000100f1acd4 cxxbridge1$str$ptr + 2783992
+16  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-01 17:09:35,609 - INFO - Browser returned to pool or closed
+2025-05-01 17:09:35,609 - INFO - Returning 1 image results in 14.43 seconds
+2025-05-01 20:31:58,127 - INFO - Cleaned 1 expired cache entries
+2025-05-01 20:41:58,136 - INFO - Cleaned 0 expired cache entries
+2025-05-01 21:19:55,020 - INFO - Cleaned 0 expired cache entries
+2025-05-01 21:29:55,034 - INFO - Cleaned 0 expired cache entries
+2025-05-01 21:39:55,054 - INFO - Cleaned 0 expired cache entries
+2025-05-01 21:49:55,069 - INFO - Cleaned 0 expired cache entries
+2025-05-01 21:59:55,084 - INFO - Cleaned 0 expired cache entries
+2025-05-01 22:09:55,099 - INFO - Cleaned 0 expired cache entries
+2025-05-01 22:19:55,110 - INFO - Cleaned 0 expired cache entries
+2025-05-02 08:29:01,831 - INFO - Cleaned 0 expired cache entries
+2025-05-02 12:24:34,279 - INFO - Cleaned 0 expired cache entries
+2025-05-02 17:15:04,296 - INFO - Cleaned 0 expired cache entries
+2025-05-02 17:23:02,884 - INFO - Search request received for query: 'code review', engine: google
+2025-05-02 17:23:02,885 - INFO - Search request received for query: 'code review', engine: google
+2025-05-02 17:23:02,969 - ERROR - Failed to load search engine homepage: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+0   chromedriver                        0x0000000100f22dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100f1b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100a628d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000100a4b96c chromedriver + 194924
+4   chromedriver                        0x0000000100a6f338 cxxbridge1$string$len + 144836
+5   chromedriver                        0x0000000100ad1874 cxxbridge1$string$len + 547584
+6   chromedriver                        0x0000000100aea2c4 cxxbridge1$string$len + 648528
+7   chromedriver                        0x0000000100a9da80 cxxbridge1$string$len + 335116
+8   chromedriver                        0x0000000100ee7c74 cxxbridge1$str$ptr + 2575000
+9   chromedriver                        0x0000000100eeaf40 cxxbridge1$str$ptr + 2588004
+10  chromedriver                        0x0000000100ec79fc cxxbridge1$str$ptr + 2443296
+11  chromedriver                        0x0000000100eeb7bc cxxbridge1$str$ptr + 2590176
+12  chromedriver                        0x0000000100eb8af0 cxxbridge1$str$ptr + 2382100
+13  chromedriver                        0x0000000100f0b9a0 cxxbridge1$str$ptr + 2721732
+14  chromedriver                        0x0000000100f0bb2c cxxbridge1$str$ptr + 2722128
+15  chromedriver                        0x0000000100f1acd4 cxxbridge1$str$ptr + 2783992
+16  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-02 17:23:02,970 - ERROR - Failed to load search engine homepage: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+0   chromedriver                        0x0000000105076dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x000000010506f088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000104bb68d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000104b9f96c chromedriver + 194924
+4   chromedriver                        0x0000000104bc3338 cxxbridge1$string$len + 144836
+5   chromedriver                        0x0000000104c25874 cxxbridge1$string$len + 547584
+6   chromedriver                        0x0000000104c3e2c4 cxxbridge1$string$len + 648528
+7   chromedriver                        0x0000000104bf1a80 cxxbridge1$string$len + 335116
+8   chromedriver                        0x000000010503bc74 cxxbridge1$str$ptr + 2575000
+9   chromedriver                        0x000000010503ef40 cxxbridge1$str$ptr + 2588004
+10  chromedriver                        0x000000010501b9fc cxxbridge1$str$ptr + 2443296
+11  chromedriver                        0x000000010503f7bc cxxbridge1$str$ptr + 2590176
+12  chromedriver                        0x000000010500caf0 cxxbridge1$str$ptr + 2382100
+13  chromedriver                        0x000000010505f9a0 cxxbridge1$str$ptr + 2721732
+14  chromedriver                        0x000000010505fb2c cxxbridge1$str$ptr + 2722128
+15  chromedriver                        0x000000010506ecd4 cxxbridge1$str$ptr + 2783992
+16  libsystem_pthread.dylib             0x000000018d2782e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d2730fc thread_start + 8
+
+2025-05-02 17:23:03,259 - INFO - Browser returned to pool or closed
+2025-05-02 17:23:03,273 - INFO - Browser returned to pool or closed
+2025-05-02 17:28:04,088 - INFO - Cleaned 0 expired cache entries
+2025-05-02 17:28:49,908 - INFO - Search request received for query: 'code revview', engine: google
+2025-05-02 17:28:52,835 - INFO - Search request received for query: 'code review', engine: google
+2025-05-02 17:28:54,076 - INFO - Chrome driver initialized successfully
+2025-05-02 17:28:54,076 - INFO - Chrome driver initialized successfully
+2025-05-02 17:28:56,702 - INFO - Successfully navigated to google homepage
+2025-05-02 17:28:57,058 - INFO - Search query submitted successfully
+2025-05-02 17:28:57,063 - INFO - Successfully navigated to google homepage
+2025-05-02 17:28:57,350 - INFO - Search query submitted successfully
+2025-05-02 17:29:00,476 - INFO - Found 103 potential search results
+2025-05-02 17:29:00,705 - INFO - Added result 3: What is a code review?...
+2025-05-02 17:29:01,117 - INFO - Browser returned to pool or closed
+2025-05-02 17:29:01,118 - INFO - Returning 3 results in 8.28 seconds
+2025-05-02 17:29:02,339 - INFO - Found 103 potential search results
+2025-05-02 17:29:02,566 - INFO - Added result 3: What is a code review?...
+2025-05-02 17:29:02,910 - INFO - Browser returned to pool or closed
+2025-05-02 17:29:02,910 - INFO - Returning 3 results in 13.00 seconds
+2025-05-02 17:38:04,096 - INFO - Cleaned 0 expired cache entries
+2025-05-02 17:48:03,990 - INFO - Cleaned 0 expired cache entries
+2025-05-02 17:58:03,996 - INFO - Cleaned 0 expired cache entries
+2025-05-02 18:08:04,044 - INFO - Cleaned 0 expired cache entries
+2025-05-02 18:18:04,052 - INFO - Cleaned 0 expired cache entries
+2025-05-02 18:34:15,685 - INFO - Cleaned 0 expired cache entries
+2025-05-02 18:45:16,708 - INFO - Cleaned 0 expired cache entries
+2025-05-02 18:55:16,722 - INFO - Cleaned 0 expired cache entries
+2025-05-02 19:05:16,748 - INFO - Cleaned 0 expired cache entries
+2025-05-02 19:15:16,773 - INFO - Cleaned 0 expired cache entries
